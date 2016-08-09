@@ -101,7 +101,7 @@ void DockItem::showPreview(const QPoint &previewPos)
     }
 
     QPoint pos = previewPos.isNull()
-            ?  QPoint(globalX() + width() / 2, globalY() - DOCK_PREVIEW_MARGIN)
+            ?  QPoint(globalX() + width() / 2, globalY() - DOCK_PREVIEW_MARGIN * 2 - 3)
              : previewPos;
 
     if (getApplet() == NULL) {
@@ -112,8 +112,7 @@ void DockItem::showPreview(const QPoint &previewPos)
             m_titlePreview->setArrowX(-1);  //reset position
             m_titlePreview->setContent(m_titleLabel);
             m_titlePreview->showPreview(pos.x(),
-                                        pos.y() + DOCK_PREVIEW_MARGIN -
-                                        2 - //minute adjustment
+                                        pos.y() + 4 -
                                         m_titlePreview->shadowYOffset() +
                                         m_titlePreview->shadowBlurRadius() +
                                         m_titlePreview->shadowDistance(),

@@ -67,7 +67,8 @@ void DockPluginItemWrapper::enterEvent(QEvent *)
 {
     if (hoverable()) {
         DisplayRect rec = m_display->primaryRect();
-        showPreview(QPoint(globalX() + width() / 2, rec.height- DockModeData::instance()->getDockHeight() - DOCK_PREVIEW_MARGIN));
+        showPreview(QPoint(globalX() + width() / 2,
+                           rec.height- DockModeData::instance()->getDockHeight() - DOCK_PREVIEW_MARGIN*2 - 3));
         emit mouseEnter();
     }
 }
