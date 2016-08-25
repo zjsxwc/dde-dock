@@ -86,9 +86,7 @@ void MainItem::mousePressEvent(QMouseEvent *event)
 {
     if (event->button() == Qt::LeftButton)
     {
-        QProcess * tmpProcess = new QProcess();
-        connect(tmpProcess, SIGNAL(finished(int)), tmpProcess, SLOT(deleteLater()));
-        tmpProcess->start("gvfs-open trash://");
+        QProcess::startDetached("gvfs-open trash://");
     }
 
     //Makesure it parent can accept the mouse event too
