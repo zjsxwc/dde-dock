@@ -7,6 +7,8 @@
  * (at your option) any later version.
  **/
 
+#include <sys/mman.h>
+
 #include <QApplication>
 #include <QFile>
 #include <QDebug>
@@ -79,8 +81,8 @@ int main(int argc, char *argv[])
     translator.load("/usr/share/dde-dock/translations/dde-dock_" + QLocale::system().name());
     a.installTranslator(&translator);
 
-	// translations from dde-control-center, used by those plugins provided by dde-control-center,
-	// but below lines should be moved to individual plugins in the future.
+    // translations from dde-control-center, used by those plugins provided by dde-control-center,
+    // but below lines should be moved to individual plugins in the future.
     QTranslator translator1;
     translator1.load("/usr/share/dde-control-center/translations/dde-control-center_" + QLocale::system().name());
     a.installTranslator(&translator1);
@@ -102,6 +104,11 @@ int main(int argc, char *argv[])
 //#endif
 
     initGtkThemeWatcher();
+
+    QString deepinMlockall = QProcessEnvironment::systemEnvironment().value("DEEPIN_MLOCKALL");
+    if (deepinMlockall == "true") {
+        mlockall(MCL_CURRENT);
+    }
 
     return a.exec();
 }
