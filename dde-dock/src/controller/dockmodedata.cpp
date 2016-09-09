@@ -238,6 +238,9 @@ void DockModeData::initDDS()
     connect(m_dockSetting,&DBusDockSetting::HideModeChanged,this,&DockModeData::onHideModeChanged);
 
     m_currentMode = Dock::DockMode(m_dockSetting->GetDisplayMode().value());
+    // TODO: workaround
+    if (Dock::ClassicMode == m_currentMode) m_currentMode =  Dock::EfficientMode;
+
     m_hideMode = Dock::HideMode(m_dockSetting->GetHideMode().value());
 
     emit dockModeChanged(m_currentMode,m_currentMode);

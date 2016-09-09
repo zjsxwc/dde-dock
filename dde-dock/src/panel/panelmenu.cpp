@@ -43,7 +43,7 @@ void PanelMenu::showMenu(int x, int y)
             QJsonArray contentArry;
             contentArry.append(createRadioItemObj(tr("Fashion mode"),ToFashionMode,DockModeGroup,m_dockModeData->getDockMode() == Dock::FashionMode));
             contentArry.append(createRadioItemObj(tr("Efficient mode"),ToEfficientMode,DockModeGroup,m_dockModeData->getDockMode() == Dock::EfficientMode));
-            contentArry.append(createRadioItemObj(tr("Classic mode"),ToClassicMode,DockModeGroup,m_dockModeData->getDockMode() == Dock::ClassicMode));
+//            contentArry.append(createRadioItemObj(tr("Classic mode"),ToClassicMode,DockModeGroup,m_dockModeData->getDockMode() == Dock::ClassicMode));
             contentArry.append(createItemObj("",OperationType(-1)));
             contentArry.append(createRadioItemObj(tr("Keep showing"),ToKeepShowing,HideModeGroup,m_dockModeData->getHideMode() == Dock::KeepShowing));
             contentArry.append(createRadioItemObj(tr("Keep hidden"),ToKeepHidden,HideModeGroup,m_dockModeData->getHideMode() == Dock::KeepHidden));
@@ -77,7 +77,8 @@ void PanelMenu::onItemInvoked(const QString &itemId, bool)
         changeToEfficientMode();
         break;
     case ToClassicMode:
-        changeToClassicMode();
+        qCritical() << "ClassicMode has been remove !!!!!!!!!!!!!!!";
+//        changeToClassicMode();
         break;
     case ToKeepShowing:
         changeToKeepShowing();
@@ -112,7 +113,8 @@ void PanelMenu::changeToEfficientMode()
 void PanelMenu::changeToClassicMode()
 {
     qDebug() << "Change to classic mode...";
-    m_dockModeData->setDockMode(Dock::ClassicMode);
+    qCritical() << "ClassicMode has been remove !!!!!!!!!!!!!!!";
+//    m_dockModeData->setDockMode(Dock::ClassicMode);
 }
 
 void PanelMenu::changeToKeepShowing()
