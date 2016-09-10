@@ -32,7 +32,7 @@ MainWidget::MainWidget(QWidget *parent)
     m_mainPanel = new DockPanel(this);
     connect(m_mainPanel, &DockPanel::startShow, this, &MainWidget::showDock);
     connect(m_mainPanel, &DockPanel::panelHasHidden, this, &MainWidget::hideDock);
-    connect(m_mainPanel, &DockPanel::sizeChanged, this, &MainWidget::onPanelSizeChanged);
+    connect(m_mainPanel, &DockPanel::sizeChanged, this, &MainWidget::onPanelSizeChanged, Qt::QueuedConnection);
 
     connect(m_dmd, &DockModeData::dockModeChanged, this, &MainWidget::onDockModeChanged);
     connect(m_dmd, &DockModeData::hideModeChanged, this, &MainWidget::onHideModeChanged);
@@ -44,7 +44,7 @@ MainWidget::MainWidget(QWidget *parent)
 
     m_positionUpdateTimer = new QTimer(this);
     m_positionUpdateTimer->setSingleShot(true);
-    m_positionUpdateTimer->setInterval(100);
+    m_positionUpdateTimer->setInterval(500);
 
     DockUIDbus *dockUIDbus = new DockUIDbus(this);
     Q_UNUSED(dockUIDbus)
@@ -54,7 +54,7 @@ MainWidget::MainWidget(QWidget *parent)
     connect(m_display, &DBusDisplay::PrimaryRectChanged, this, &MainWidget::updateGeometry);
     connect(m_display, &DBusDisplay::ScreenHeightChanged, this, &MainWidget::updateGeometry);
     connect(m_display, &DBusDisplay::ScreenWidthChanged, this, &MainWidget::updateGeometry);
-    connect(m_positionUpdateTimer, &QTimer::timeout, this, &MainWidget::updatePosition);
+    connect(m_positionUpdateTimer, &QTimer::timeout, this, &MainWidget::updatePosition, Qt::QueuedConnection);
 
     connect(m_mainPanel, &DockPanel::pluginsInitDone, this, &MainWidget::show);
 
@@ -84,11 +84,14 @@ void MainWidget::updatePosition()
 
 //    clearXcbStrutPartial();
 
-    const int ww = width();
+    const int ww = m_dmd->getDockMode() == Dock::FashionMode ? width() : rec.width();
     const int hh = height();
 
-    if (!ww || !hh)
+    // pass invalid data
+    if (!ww || !hh || hh > 100)
         return;
+
+    qDebug() << "w: " << ww << ", h: " << hh;
 
     const Dock::DockMode dockMode = m_dmd->getDockMode();
     const int w = dockMode == Dock::FashionMode ? m_mainPanel->sizeHint().width() : rec.width();
@@ -247,13 +250,18 @@ void MainWidget::onPanelSizeChanged()
     if (m_dmd->getDockMode() != Dock::FashionMode)
         return;
 
-    const int ww = width();
+    const QRect rec = m_windowStayRect;
+
+    const int ww = m_dmd->getDockMode() == Dock::FashionMode ? width() : rec.width();
     const int hh = height();
 
-    if (!ww || !hh)
+    // pass invalid data
+    if (!ww || !hh || hh > 100)
         return;
 
-    const QRect rec = m_windowStayRect;
+    qDebug() << "onPanelSizeChanged " << rec;
+    qDebug() << "w: " << ww << ", h: " << hh;
+
     const int w = m_mainPanel->sizeHint().width();
 
     if (m_hasHidden) {

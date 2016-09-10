@@ -102,12 +102,14 @@ void XcbMisc::set_strut_partial(xcb_window_t winId, Orientation orientation, uin
 void XcbMisc::set_window_icon_geometry(xcb_window_t winId, QRect geo)
 {
 //    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
+    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
+    xcb_flush(QX11Info::connection());
 }
 
 void XcbMisc::set_window_position(xcb_window_t winId, const QPoint &pos)
 {
     qDebug() << "set_window_position" << pos;
     const uint32_t vals[2] = {uint32_t(pos.x()), uint32_t(pos.y())};
-    xcb_configure_window(QX11Info::connection(), winId, XCB_CONFIG_WINDOW_X | XCB_CONFIG_WINDOW_Y, vals);
+    xcb_configure_window_checked(QX11Info::connection(), winId, XCB_CONFIG_WINDOW_X | XCB_CONFIG_WINDOW_Y, vals);
     xcb_flush(QX11Info::connection());
 }
