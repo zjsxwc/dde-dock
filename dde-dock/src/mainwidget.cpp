@@ -40,7 +40,7 @@ MainWidget::MainWidget(QWidget *parent)
     //For init
     m_display = new DBusDisplay(this);
     m_windowStayRect = m_display->primaryRect();
-    updateXcbStrutPartial();
+//    updateXcbStrutPartial();
 
     m_positionUpdateTimer = new QTimer(this);
     m_positionUpdateTimer->setSingleShot(true);
@@ -59,6 +59,7 @@ MainWidget::MainWidget(QWidget *parent)
     connect(m_mainPanel, &DockPanel::pluginsInitDone, this, &MainWidget::show);
 
     m_positionUpdateTimer->start();
+//    onPanelSizeChanged();
 }
 
 void MainWidget::onDockModeChanged()
@@ -79,9 +80,15 @@ void MainWidget::updatePosition()
 {
     const QRect rec = m_windowStayRect;
 
-    qDebug() << "update position with rect: " << rec;
+    qDebug() << "update position with screen rect: " << rec;
 
-    clearXcbStrutPartial();
+//    clearXcbStrutPartial();
+
+    const int ww = width();
+    const int hh = height();
+
+    if (!ww || !hh)
+        return;
 
     const Dock::DockMode dockMode = m_dmd->getDockMode();
     const int w = dockMode == Dock::FashionMode ? m_mainPanel->sizeHint().width() : rec.width();
@@ -93,22 +100,28 @@ void MainWidget::updatePosition()
         //set height with 0 mean window is hidden,Windows manager will handle it's showing animation
         this->setFixedSize(w, 1);
 
-        this->move(rec.x() + (rec.width() - width()) / 2,
-                   rec.y() + rec.height() - 1);//1 pixel for grab mouse enter event to show panel
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+                                    rec.y() + rec.height() - 1);
+//        this->move//1 pixel for grab mouse enter event to show panel
     } else {
         this->setFixedSize(w, m_dmd->getDockHeight());
 
-        move(rec.x() + (rec.width() - width()) / 2,
-             rec.y() + rec.height() - height() /*- 10*/);
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+                                    rec.y() + rec.height() - hh/* - 10*/);
     }
+
+    this->move(m_windowStayPoint.x(), m_windowStayPoint.y());
 
     if (dockMode == Dock::FashionMode)
         updateBackendProperty();
     updateXcbStrutPartial();
+//    QTimer::singleShot(1000, this, &MainWidget::updateXcbStrutPartial);
 }
 
 void MainWidget::updateXcbStrutPartial()
 {
+    clearXcbStrutPartial();
+
     int tmpHeight = 0;
     DBusDockSetting dds;
     if (dds.GetHideMode() == Dock::KeepShowing) {
@@ -124,11 +137,11 @@ void MainWidget::updateXcbStrutPartial()
 //        qDebug() << "max = " << max;
 
         int maxMonitorHeight = m_display->screenHeight();
-        tmpHeight = maxMonitorHeight - y();
+        tmpHeight = maxMonitorHeight - m_windowStayPoint.y();
     }
 
     // sometimes screen height is wrong, we need to ignore wrong data.
-    if (tmpHeight && tmpHeight < m_dmd->getDockHeight()) {
+    if ((tmpHeight && tmpHeight < m_dmd->getDockHeight()) || tmpHeight > 100) {
         return;
     }
 
@@ -162,14 +175,14 @@ void MainWidget::updateGeometry()
 {
     QRect primaryRect = m_display->primaryRect();
 
-    for (const QScreen *screen : qApp->screens()) {
-        if (screen->name() == m_display->primary()) {
-            primaryRect = screen->geometry();
-            connect(screen, &QScreen::geometryChanged, this, &MainWidget::updateGeometry, Qt::UniqueConnection);
-        } else {
-            disconnect(screen, &QScreen::geometryChanged, this, &MainWidget::updateGeometry);
-        }
-    }
+//    for (const QScreen *screen : qApp->screens()) {
+//        if (screen->name() == m_display->primary()) {
+//            primaryRect = screen->geometry();
+//            connect(screen, &QScreen::geometryChanged, this, &MainWidget::updateGeometry, Qt::UniqueConnection);
+//        } else {
+//            disconnect(screen, &QScreen::geometryChanged, this, &MainWidget::updateGeometry);
+//        }
+//    }
 
     m_windowStayRect = primaryRect;
     m_positionUpdateTimer->start();
@@ -177,7 +190,10 @@ void MainWidget::updateGeometry()
 
 void MainWidget::move(const int ax, const int ay)
 {
-    QWidget::move(ax, ay);
+//    QWidget::move(ax, ay);
+    if (ax < 0 || ay < 0)
+        return;
+    XcbMisc::instance()->set_window_position(winId(), QPoint(ax, ay));
 
 //    qDebug() << "move to " << ax << ',' << ay;
 }
@@ -231,6 +247,12 @@ void MainWidget::onPanelSizeChanged()
     if (m_dmd->getDockMode() != Dock::FashionMode)
         return;
 
+    const int ww = width();
+    const int hh = height();
+
+    if (!ww || !hh)
+        return;
+
     const QRect rec = m_windowStayRect;
     const int w = m_mainPanel->sizeHint().width();
 
@@ -238,13 +260,13 @@ void MainWidget::onPanelSizeChanged()
         //set height with 0 mean window is hidden,Windows manager will handle it's showing animation
         this->setFixedSize(w, 1);
 
-        this->move(rec.x() + (rec.width() - width()) / 2,
+        this->move(rec.x() + (rec.width() - ww) / 2,
                    rec.y() + rec.height() - 1);//1 pixel for grab mouse enter event to show panel
     } else {
         this->setFixedSize(w, m_dmd->getDockHeight());
 
-        move(rec.x() + (rec.width() - width()) / 2,
-             rec.y() + rec.height() - height() /*- 10*/);
+        move(rec.x() + (rec.width() - ww) / 2,
+             rec.y() + rec.height() - hh /*- 10*/);
     }
 //        setFixedWidth(m_mainPanel->sizeHint().width());
 //        updatePosition();

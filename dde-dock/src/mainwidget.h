@@ -65,6 +65,7 @@ private:
     DockPanel *m_mainPanel = NULL;
     bool m_hasHidden = false;
     QRect m_windowStayRect;
+    QPoint m_windowStayPoint;
     QTimer *m_positionUpdateTimer = nullptr;
     DockModeData * m_dmd = DockModeData::instance();
     DBusHideStateManager *m_dhsm = NULL;

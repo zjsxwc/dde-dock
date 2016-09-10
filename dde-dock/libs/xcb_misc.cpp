@@ -89,16 +89,25 @@ void XcbMisc::set_strut_partial(xcb_window_t winId, Orientation orientation, uin
         break;
     }
 
-//    qDebug() << "xcb_ewmh_set_wm_strut_partial" << endl
+    qDebug() << "xcb_ewmh_set_wm_strut_partial" << endl
 //             << "top" << strut_partial.top << strut_partial.top_start_x << strut_partial.top_end_x << endl
 //             << "left" << strut_partial.left << strut_partial.left_start_y << strut_partial.left_end_y << endl
 //             << "right" << strut_partial.right << strut_partial.right_start_y << strut_partial.right_end_y << endl
-//             << "bottom" << strut_partial.bottom << strut_partial.bottom_start_x << strut_partial.bottom_end_x << endl;
+             << "bottom" << strut_partial.bottom << strut_partial.bottom_start_x << strut_partial.bottom_end_x << endl;
 
     xcb_ewmh_set_wm_strut_partial(&m_ewmh_connection, winId, strut_partial);
+    xcb_flush(QX11Info::connection());
 }
 
 void XcbMisc::set_window_icon_geometry(xcb_window_t winId, QRect geo)
 {
-    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
+//    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
+}
+
+void XcbMisc::set_window_position(xcb_window_t winId, const QPoint &pos)
+{
+    qDebug() << "set_window_position" << pos;
+    const uint32_t vals[2] = {uint32_t(pos.x()), uint32_t(pos.y())};
+    xcb_configure_window(QX11Info::connection(), winId, XCB_CONFIG_WINDOW_X | XCB_CONFIG_WINDOW_Y, vals);
+    xcb_flush(QX11Info::connection());
 }

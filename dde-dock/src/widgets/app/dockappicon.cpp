@@ -41,9 +41,12 @@ void DockAppIcon::setIcon(const QString &iconPath)
 
     QPixmap pixmap(48, 48);
 
+    qDebug() << "read icon: " << iconPath;
+
     // iconPath is an absolute path of the system.
     if (QFile::exists(iconPath) && QFileInfo(iconPath).isAbsolute()) {
         pixmap = QPixmap(iconPath);
+        qDebug() << "load local file" << pixmap;
     } else if (iconPath.startsWith("data:image/")){
         // iconPath is a string representing an inline image.
         QStringList strs = iconPath.split("base64,");

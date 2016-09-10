@@ -98,7 +98,7 @@ int main(int argc, char *argv[])
     qWarning() << "Start Dock, The main window has been shown.";
     w.loadResources();
 //#ifndef ARCH_MIPSEL
-//    w.show();
+    w.show();
 //#endif
 
     initGtkThemeWatcher();

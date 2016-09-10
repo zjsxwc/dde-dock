@@ -37,6 +37,7 @@ public:
     void set_window_type(xcb_window_t winId, WindowType winType);
     void set_strut_partial(xcb_window_t winId, Orientation orientation, uint strut, uint start, uint end);
     void set_window_icon_geometry(xcb_window_t winId, QRect geo);
+    void set_window_position(xcb_window_t winId, const QPoint &pos);
 
 private:
     XcbMisc();

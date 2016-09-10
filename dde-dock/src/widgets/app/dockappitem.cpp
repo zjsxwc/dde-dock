@@ -197,6 +197,7 @@ void DockAppItem::initData()
 
 void DockAppItem::updateIcon()
 {
+    qDebug() << "update icon" << m_itemData.title;
     m_appIcon->setFixedSize(m_dockModeData->getAppIconSize(), m_dockModeData->getAppIconSize());
     m_appIcon->setIcon(m_itemData.iconPath);
 
