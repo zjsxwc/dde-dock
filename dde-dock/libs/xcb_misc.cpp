@@ -52,7 +52,7 @@ void XcbMisc::set_window_type(xcb_window_t winId, WindowType winType)
         break;
     }
 
-    xcb_ewmh_set_wm_window_type(&m_ewmh_connection, winId, 1, atoms);
+    xcb_ewmh_set_wm_window_type_checked(&m_ewmh_connection, winId, 1, atoms);
 }
 
 void XcbMisc::set_strut_partial(xcb_window_t winId, Orientation orientation, uint strut, uint start, uint end)
@@ -95,14 +95,14 @@ void XcbMisc::set_strut_partial(xcb_window_t winId, Orientation orientation, uin
 //             << "right" << strut_partial.right << strut_partial.right_start_y << strut_partial.right_end_y << endl
              << "bottom" << strut_partial.bottom << strut_partial.bottom_start_x << strut_partial.bottom_end_x << endl;
 
-    xcb_ewmh_set_wm_strut_partial(&m_ewmh_connection, winId, strut_partial);
+    xcb_ewmh_set_wm_strut_partial_checked(&m_ewmh_connection, winId, strut_partial);
     xcb_flush(QX11Info::connection());
 }
 
 void XcbMisc::set_window_icon_geometry(xcb_window_t winId, QRect geo)
 {
 //    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
-    xcb_ewmh_set_wm_icon_geometry(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
+    xcb_ewmh_set_wm_icon_geometry_checked(&m_ewmh_connection, winId, geo.x(), geo.y(), geo.width(), geo.height());
     xcb_flush(QX11Info::connection());
 }
 

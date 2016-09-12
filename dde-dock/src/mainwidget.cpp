@@ -65,7 +65,7 @@ MainWidget::MainWidget(QWidget *parent)
 void MainWidget::onDockModeChanged()
 {
     // force update position twice
-    m_positionUpdateTimer->start();
+//    m_positionUpdateTimer->start();
     updateGeometry();
     updateBackendProperty();
 }
@@ -78,6 +78,7 @@ void MainWidget::onHideModeChanged()
 // TODO: it should be named to `updateSize' instead I think.
 void MainWidget::updatePosition()
 {
+    m_windowStayRect = m_display->primaryRect();
     const QRect rec = m_windowStayRect;
 
     qDebug() << "update position with screen rect: " << rec;
@@ -176,7 +177,7 @@ void MainWidget::updateBackendProperty()
 
 void MainWidget::updateGeometry()
 {
-    QRect primaryRect = m_display->primaryRect();
+//    QRect primaryRect = m_display->primaryRect();
 
 //    for (const QScreen *screen : qApp->screens()) {
 //        if (screen->name() == m_display->primary()) {
@@ -187,7 +188,7 @@ void MainWidget::updateGeometry()
 //        }
 //    }
 
-    m_windowStayRect = primaryRect;
+//    m_windowStayRect = primaryRect;
     m_positionUpdateTimer->start();
 }
 
@@ -268,14 +269,16 @@ void MainWidget::onPanelSizeChanged()
         //set height with 0 mean window is hidden,Windows manager will handle it's showing animation
         this->setFixedSize(w, 1);
 
-        this->move(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
                    rec.y() + rec.height() - 1);//1 pixel for grab mouse enter event to show panel
     } else {
         this->setFixedSize(w, m_dmd->getDockHeight());
 
-        move(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
              rec.y() + rec.height() - hh /*- 10*/);
     }
+
+    this->move(m_windowStayPoint.x(), m_windowStayPoint.y());
 //        setFixedWidth(m_mainPanel->sizeHint().width());
 //        updatePosition();
 //                updateGeometry();
