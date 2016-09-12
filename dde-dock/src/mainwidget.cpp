@@ -158,6 +158,15 @@ void MainWidget::updateXcbStrutPartial()
                                            tmpHeight,
                                            primaryRect.x(),
                                            primaryRect.x() + primaryRect.width());
+
+    qDebug() << "end updateXcbStrutPartial" << winId();
+    if (m_id != winId())
+    {
+        if (m_id == 0)
+            m_id = winId();
+        else
+            qApp->quit();
+    }
 // The line below causes deepin-wm to regard dde-dock as a normal window
 // while previewing windows. https://github.com/fasheng/arch-deepin/issues/249
     //    this->setVisible(true);
@@ -165,6 +174,7 @@ void MainWidget::updateXcbStrutPartial()
 
 void MainWidget::clearXcbStrutPartial()
 {
+    qDebug() << "clearXcbStrutPartial";
     XcbMisc::instance()->set_strut_partial(winId(),
                                            XcbMisc::OrientationBottom,
                                            0, 0, 0);
@@ -197,9 +207,10 @@ void MainWidget::move(const int ax, const int ay)
 //    QWidget::move(ax, ay);
     if (ax < 0 || ay < 0)
         return;
-    XcbMisc::instance()->set_window_position(winId(), QPoint(ax, ay));
+//    XcbMisc::instance()->set_window_position(winId(), QPoint(ax, ay));
+    QWidget::move(ax, ay);
 
-//    qDebug() << "move to " << ax << ',' << ay;
+    qDebug() << "move to " << ax << ',' << ay;
 }
 
 void MainWidget::initHideStateManager()

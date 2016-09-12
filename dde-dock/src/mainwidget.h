@@ -71,6 +71,8 @@ private:
     DBusHideStateManager *m_dhsm = NULL;
     DBusDisplay *m_display = NULL;
     DBusPanelManager *m_dockProperty = NULL;
+
+    WId m_id = 0;
 };
 
 class DockUIDbus : public QDBusAbstractAdaptor {

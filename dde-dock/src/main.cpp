@@ -75,6 +75,7 @@ int main(int argc, char *argv[])
     a.setOrganizationName("deepin");
     a.setApplicationName("dde-dock");
     a.setApplicationDisplayName("Dock");
+    a.setQuitOnLastWindowClosed(false);
 
     // install translators
     QTranslator translator;
