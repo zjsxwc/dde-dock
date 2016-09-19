@@ -36,6 +36,44 @@ void DockAppManager::initEntries()
     }
 
     initItemList();
+
+    QTimer *sync = new QTimer(this);
+    sync->setInterval(20 * 1000);
+    sync->start();
+
+    connect(sync, &QTimer::timeout, this, [ = ]() {
+//        qDebug()<< "sync data check";
+        bool deamonCrash = false;
+        QList<QDBusObjectPath> entryList = m_entryManager->entries();
+        // check path change
+        for (DBusDockEntry *dockEntry : m_initEntries) {
+            if (!entryList.contains(QDBusObjectPath(dockEntry->path()))) {
+                deamonCrash = true;
+                qCritical() << "find invaild path, maybe daemon crash" << dockEntry->path();
+                DockAppItem *item = qobject_cast<DockAppItem*>(dockEntry->parent());
+                if (item) {
+                    qCritical() << "remove invaild id, maybe daemon crash" << item->getItemId();
+                    onEntryRemoved(item->getItemId());
+                }
+                m_initEntries.removeOne(dockEntry);
+            } else {
+                entryList.removeOne(QDBusObjectPath(dockEntry->path()));
+            }
+        }
+
+        for (QDBusObjectPath objPath : entryList) {
+            deamonCrash = true;
+            qCritical() << "add objPath, maybe daemon crash" << objPath.path();
+            onEntryAdded(objPath);
+        }
+
+        if (deamonCrash) {
+            sync->setInterval(5*1000);
+        } else {
+            sync->setInterval(20 * 1000);
+        }
+    });
+
 }
 
 void DockAppManager::onEntryAdded(const QDBusObjectPath &path)
@@ -63,8 +101,10 @@ void DockAppManager::onEntryAdded(const QDBusObjectPath &path)
 
             m_dockingItemId = "";
         }
-
         item->setEntryProxyer(entryProxyer);
+        m_initEntries << entryProxyer;
+    } else {
+        entryProxyer->deleteLater();
     }
 }
 
