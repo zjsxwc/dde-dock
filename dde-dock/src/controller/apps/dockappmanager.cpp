@@ -27,15 +27,17 @@ DockAppManager::DockAppManager(QObject *parent) : QObject(parent)
 void DockAppManager::initEntries()
 {
     QList<QDBusObjectPath> entryList = m_entryManager->entries();
+    QList<DBusDockEntry *> initEntryList;
     for (QDBusObjectPath objPath : entryList)
     {
         DBusDockEntry *dep = new DBusDockEntry(objPath.path());
         if (/*dep->isValid() && */dep->type() == "App") {
-            m_initEntries << dep;
+            m_initEntries.insert(dep->id(), dep->path());
+            initEntryList<< dep;
         }
     }
 
-    initItemList();
+    initItemList(initEntryList);
 
     QTimer *sync = new QTimer(this);
     sync->setInterval(20 * 1000);
@@ -46,18 +48,13 @@ void DockAppManager::initEntries()
         bool deamonCrash = false;
         QList<QDBusObjectPath> entryList = m_entryManager->entries();
         // check path change
-        for (DBusDockEntry *dockEntry : m_initEntries) {
-            if (!entryList.contains(QDBusObjectPath(dockEntry->path()))) {
+        for (QString dockEntryId : m_initEntries.keys()) {
+            if (!entryList.contains(QDBusObjectPath(m_initEntries.value(dockEntryId)))) {
                 deamonCrash = true;
-                qCritical() << "find invaild path, maybe daemon crash" << dockEntry->path();
-                DockAppItem *item = qobject_cast<DockAppItem*>(dockEntry->parent());
-                if (item) {
-                    qCritical() << "remove invaild id, maybe daemon crash" << item->getItemId();
-                    onEntryRemoved(item->getItemId());
-                }
-                m_initEntries.removeOne(dockEntry);
+                qCritical() << "find invaild path, maybe daemon crash" << m_initEntries.value(dockEntryId);
+                onEntryRemoved(dockEntryId);
             } else {
-                entryList.removeOne(QDBusObjectPath(dockEntry->path()));
+                entryList.removeOne(QDBusObjectPath(m_initEntries.value(dockEntryId)));
             }
         }
 
@@ -102,7 +99,7 @@ void DockAppManager::onEntryAdded(const QDBusObjectPath &path)
             m_dockingItemId = "";
         }
         item->setEntryProxyer(entryProxyer);
-        m_initEntries << entryProxyer;
+        m_initEntries.insert(entryProxyer->id(), entryProxyer->path());
     } else {
         entryProxyer->deleteLater();
     }
@@ -120,16 +117,17 @@ void DockAppManager::onEntryRemoved(const QString &id)
         m_ids.removeAll(id);
         emit entryRemoved(id);
     }
+    m_initEntries.remove(id);
 }
 
-void DockAppManager::initItemList()
+void DockAppManager::initItemList(QList<DBusDockEntry *> initEntryList)
 {
     QStringList dockedList = m_dockAppManager->DockedAppList().value();
 
     m_ids = QStringList();
     QList<DBusDockEntry*> undockedEntries;
 
-    for (DBusDockEntry *entry : m_initEntries) {
+    for (DBusDockEntry *entry : initEntryList) {
         m_ids << entry->id();
         if (dockedList.indexOf(entry->id()) != -1) {
             DockAppItem *item = new DockAppItem;

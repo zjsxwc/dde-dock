@@ -31,7 +31,7 @@ signals:
     void entryRemoved(const QString &id);
 
 private:
-    void initItemList();    //Sort and append item to dock
+    void initItemList(QList<DBusDockEntry *> initEntryList);    //Sort and append item to dock
     void onEntryRemoved(const QString &id);
     void onEntryAdded(const QDBusObjectPath &path);
 
@@ -40,7 +40,8 @@ private:
     QString m_dockingItemId = "";   //drop to the dock one
     DBusEntryManager *m_entryManager = NULL;
     DBusDockedAppManager *m_dockAppManager = new DBusDockedAppManager(this);
-    QList<DBusDockEntry*> m_initEntries;
+//    QList<DBusDockEntry*> m_initEntries;
+    QMap<QString, QString> m_initEntries;
 };
 
 #endif // DOCKAPPMANAGER_H
