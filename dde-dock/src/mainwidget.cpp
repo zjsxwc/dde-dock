@@ -286,7 +286,7 @@ void MainWidget::onPanelSizeChanged()
         this->setFixedSize(w, m_dmd->getDockHeight());
 
         m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
-             rec.y() + rec.height() - hh /*- 10*/);
+             rec.y() + rec.height() - m_dmd->getDockHeight() /*- 10*/);
     }
 
     this->move(m_windowStayPoint.x(), m_windowStayPoint.y());
