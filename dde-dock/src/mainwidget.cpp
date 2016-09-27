@@ -60,6 +60,15 @@ MainWidget::MainWidget(QWidget *parent)
 
     m_positionUpdateTimer->start();
 //    onPanelSizeChanged();
+
+    QTimer *wtfTimer = new QTimer;
+    wtfTimer->setSingleShot(false);
+    wtfTimer->setInterval(1000);
+    connect(wtfTimer, &QTimer::timeout, [this] {
+        if (x() != m_windowStayPoint.x() || y() != m_windowStayPoint.y())
+            move(m_windowStayPoint.x(), m_windowStayPoint.y());
+    });
+    wtfTimer->start();
 }
 
 void MainWidget::onDockModeChanged()
@@ -207,8 +216,9 @@ void MainWidget::move(const int ax, const int ay)
 //    QWidget::move(ax, ay);
     if (ax < 0 || ay < 0)
         return;
-//    XcbMisc::instance()->set_window_position(winId(), QPoint(ax, ay));
-    QWidget::move(ax, ay);
+    XcbMisc::instance()->set_window_position(winId(), QPoint(ax, ay));
+//    QWidget::move(ax, ay);
+//    QTimer::singleShot(0, this, [=] {QWidget::move(ax, ay); qDebug() << "finished move" << pos();});
 
     qDebug() << "move to " << ax << ',' << ay;
 }
