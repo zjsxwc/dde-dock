@@ -114,6 +114,28 @@ void XcbMisc::set_window_position(xcb_window_t winId, const QPoint &pos)
 {
     qDebug() << "set_window_position" << pos;
     const uint32_t vals[2] = {uint32_t(pos.x()), uint32_t(pos.y())};
-    xcb_configure_window_checked(QX11Info::connection(), winId, XCB_CONFIG_WINDOW_X | XCB_CONFIG_WINDOW_Y, vals);
+    auto cookie = xcb_configure_window_checked(QX11Info::connection(), winId, XCB_CONFIG_WINDOW_X | XCB_CONFIG_WINDOW_Y, vals);
+    auto error = xcb_request_check(QX11Info::connection(), cookie);
+//    qDebug() << error->error_code;
+
+    // bad window
+    if (error && error->error_code == 3)
+    {
+        qDebug() << "bad window found !!!";
+        qApp->quit();
+    }
+
+//typedef struct {
+//    uint8_t   response_type;  /**< Type of the response */
+//    uint8_t   error_code;     /**< Error code */
+//    uint16_t sequence;       /**< Sequence number */
+//    uint32_t resource_id;     /** < Resource ID for requests with side effects only */
+//    uint16_t minor_code;      /** < Minor opcode of the failed request */
+//    uint8_t major_code;       /** < Major opcode of the failed request */
+//    uint8_t pad0;
+//    uint32_t pad[5];         /**< Padding */
+//    uint32_t full_sequence;  /**< full sequence */
+//} xcb_generic_error_t;
+
 //    xcb_flush(QX11Info::connection());
 }

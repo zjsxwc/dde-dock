@@ -57,6 +57,7 @@ private slots:
     void clearXcbStrutPartial();
     void updateBackendProperty();
     void updateGeometry();
+    void winIdMonitor();
 
 private:
     void move(const int ax, const int ay);

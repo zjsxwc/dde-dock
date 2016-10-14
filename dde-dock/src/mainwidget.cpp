@@ -67,6 +67,7 @@ MainWidget::MainWidget(QWidget *parent)
     connect(wtfTimer, &QTimer::timeout, [this] {
         if (x() != m_windowStayPoint.x() || y() != m_windowStayPoint.y())
             move(m_windowStayPoint.x(), m_windowStayPoint.y());
+        winIdMonitor();
     });
     wtfTimer->start();
 }
@@ -75,7 +76,10 @@ void MainWidget::onDockModeChanged()
 {
     // force update position twice
 //    m_positionUpdateTimer->start();
-    updateGeometry();
+    qDebug() << "dock mode changed";
+    //updateGeometry();
+
+    updatePosition();
     updateBackendProperty();
 }
 
@@ -95,13 +99,16 @@ void MainWidget::updatePosition()
 //    clearXcbStrutPartial();
 
     const int ww = m_dmd->getDockMode() == Dock::FashionMode ? width() : rec.width();
-    const int hh = height();
+    //const int hh = height();
 
     // pass invalid data
-    if (!ww || !hh || hh > 100)
+    if (!ww/* || !hh || hh > 100*/)
+    {
+        qDebug() << "pass invaild data";
         return;
+    }
 
-    qDebug() << "w: " << ww << ", h: " << hh;
+    qDebug() << "w: " << ww;// << ", h: " << hh;
 
     const Dock::DockMode dockMode = m_dmd->getDockMode();
     const int w = dockMode == Dock::FashionMode ? m_mainPanel->sizeHint().width() : rec.width();
@@ -113,13 +120,13 @@ void MainWidget::updatePosition()
         //set height with 0 mean window is hidden,Windows manager will handle it's showing animation
         this->setFixedSize(w, 1);
 
-        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - w) / 2,
                                     rec.y() + rec.height() - 1);
 //        this->move//1 pixel for grab mouse enter event to show panel
     } else {
         this->setFixedSize(w, m_dmd->getDockHeight());
 
-        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - w) / 2,
                                     rec.y() + rec.height() - m_dmd->getDockHeight()/* - 10*/);
     }
 
@@ -169,13 +176,7 @@ void MainWidget::updateXcbStrutPartial()
                                            primaryRect.x() + primaryRect.width());
 
     qDebug() << "end updateXcbStrutPartial" << winId();
-    if (m_id != winId())
-    {
-        if (m_id == 0)
-            m_id = winId();
-        else
-            qApp->quit();
-    }
+
 // The line below causes deepin-wm to regard dde-dock as a normal window
 // while previewing windows. https://github.com/fasheng/arch-deepin/issues/249
     //    this->setVisible(true);
@@ -209,6 +210,20 @@ void MainWidget::updateGeometry()
 
 //    m_windowStayRect = primaryRect;
     m_positionUpdateTimer->start();
+}
+
+void MainWidget::winIdMonitor()
+{
+    if (m_id != winId())
+    {
+        if (m_id == 0)
+            m_id = winId();
+        else
+        {
+            qDebug() << " win Id monitor quit";
+            qApp->quit();
+        }
+    }
 }
 
 void MainWidget::move(const int ax, const int ay)
@@ -272,17 +287,19 @@ void MainWidget::onPanelSizeChanged()
     if (m_dmd->getDockMode() != Dock::FashionMode)
         return;
 
+    qDebug() << "panel size changed()";
+
     const QRect rec = m_windowStayRect;
 
     const int ww = m_dmd->getDockMode() == Dock::FashionMode ? width() : rec.width();
-    const int hh = height();
+    //const int hh = height();
 
     // pass invalid data
-    if (!ww || !hh || hh > 100)
+    if (!ww/* || !hh || hh > 100*/)
         return;
 
     qDebug() << "onPanelSizeChanged " << rec;
-    qDebug() << "w: " << ww << ", h: " << hh;
+    qDebug() << "w: " << ww;// << ", h: " << hh;
 
     const int w = m_mainPanel->sizeHint().width();
 
@@ -290,12 +307,12 @@ void MainWidget::onPanelSizeChanged()
         //set height with 0 mean window is hidden,Windows manager will handle it's showing animation
         this->setFixedSize(w, 1);
 
-        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - w) / 2,
                    rec.y() + rec.height() - 1);//1 pixel for grab mouse enter event to show panel
     } else {
         this->setFixedSize(w, m_dmd->getDockHeight());
 
-        m_windowStayPoint = QPoint(rec.x() + (rec.width() - ww) / 2,
+        m_windowStayPoint = QPoint(rec.x() + (rec.width() - w) / 2,
              rec.y() + rec.height() - m_dmd->getDockHeight() /*- 10*/);
     }
 
