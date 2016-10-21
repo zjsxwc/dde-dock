@@ -65,8 +65,18 @@ MainWidget::MainWidget(QWidget *parent)
     wtfTimer->setSingleShot(false);
     wtfTimer->setInterval(1000);
     connect(wtfTimer, &QTimer::timeout, [this] {
+
+        static int f = 0;
+
         if (x() != m_windowStayPoint.x() || y() != m_windowStayPoint.y())
+        {
+            if (++f == 10)
+                qApp->quit();
             move(m_windowStayPoint.x(), m_windowStayPoint.y());
+        } else {
+            f = 0;
+        }
+
         winIdMonitor();
     });
     wtfTimer->start();
