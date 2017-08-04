@@ -3,10 +3,10 @@
 #include "util/themeappicon.h"
 #include "util/imagefactory.h"
 #include "xcb/xcb_misc.h"
-
+#include <QX11Info>
 #include <X11/X.h>
 #include <X11/Xlib.h>
-
+#include <QMenu>
 #include <QPainter>
 #include <QDrag>
 #include <QMouseEvent>
@@ -15,6 +15,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsItemAnimation>
 #include <QTimeLine>
+#include <QJsonObject>
 
 #define APP_DRAG_THRESHOLD      20
 
@@ -27,7 +28,7 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
     : DockItem(parent),
       m_appNameTips(new QLabel(this)),
       m_appPreviewTips(new PreviewContainer(this)),
-      m_itemEntry(new DBusDockEntry(entry.path(), this)),
+      m_itemEntry(new DBusDockEntry("com.deepin.dde.daemon.Dock", entry.path(),QDBusConnection::sessionBus(), this)),
 
       m_itemView(new QGraphicsView(this)),
       m_itemScene(new QGraphicsScene(this)),
@@ -44,7 +45,9 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
       m_updateIconGeometryTimer(new QTimer(this)),
 
       m_smallWatcher(new QFutureWatcher<QPixmap>(this)),
-      m_largeWatcher(new QFutureWatcher<QPixmap>(this))
+      m_largeWatcher(new QFutureWatcher<QPixmap>(this)),
+      m_dbusDock(new DBusDock("com.deepin.dde.daemon.Dock", "/com/deepin/dde/daemon/Dock", QDBusConnection::sessionBus(), this)),
+      m_actionMenu(new QMenu(this))
 {
     QHBoxLayout *centralLayout = new QHBoxLayout;
     centralLayout->addWidget(m_itemView);
@@ -67,7 +70,7 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
     m_itemView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     m_id = m_itemEntry->id();
-    m_active = m_itemEntry->active();
+    m_active = m_itemEntry->isActive();
 
     m_appNameTips->setObjectName(m_itemEntry->name());
     m_appNameTips->setAccessibleName(m_itemEntry->name() + "-tips");
@@ -80,10 +83,10 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
 
     m_appPreviewTips->setVisible(false);
 
-    connect(m_itemEntry, &DBusDockEntry::ActiveChanged, this, &AppItem::activeChanged);
-    connect(m_itemEntry, &DBusDockEntry::TitlesChanged, this, &AppItem::updateTitle, Qt::QueuedConnection);
+    connect(m_itemEntry, &DBusDockEntry::IsActiveChanged, this, &AppItem::activeChanged);
+    connect(m_itemEntry, &DBusDockEntry::WindowTitlesChanged, this, &AppItem::updateTitle, Qt::QueuedConnection);
     connect(m_itemEntry, &DBusDockEntry::IconChanged, this, &AppItem::refershIcon);
-    connect(m_itemEntry, &DBusDockEntry::ActiveChanged, this, static_cast<void (AppItem::*)()>(&AppItem::update));
+    connect(m_itemEntry, &DBusDockEntry::IsActiveChanged, this, static_cast<void (AppItem::*)()>(&AppItem::update));
 
     connect(m_updateIconGeometryTimer, &QTimer::timeout, this, &AppItem::updateWindowIconGeometries, Qt::QueuedConnection);
 
@@ -92,6 +95,8 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
     connect(m_appPreviewTips, &PreviewContainer::requestCancelPreview, this, &AppItem::requestCancelPreview, Qt::QueuedConnection);
     connect(m_appPreviewTips, &PreviewContainer::requestHidePreview, this, &AppItem::hidePopup, Qt::QueuedConnection);
     connect(m_appPreviewTips, &PreviewContainer::requestCheckWindows, m_itemEntry, &DBusDockEntry::Check);
+
+    connect(m_actionMenu, &QMenu::triggered, this, &AppItem::onMenuTriggered);
 
     updateTitle();
     refershIcon();
@@ -269,10 +274,10 @@ void AppItem::paintEvent(QPaintEvent *e)
 void AppItem::mouseReleaseEvent(QMouseEvent *e)
 {
     if (e->button() == Qt::MiddleButton) {
-        m_itemEntry->NewInstance();
+        m_itemEntry->NewInstance(QX11Info::getTimestamp());
     } else if (e->button() == Qt::LeftButton) {
 
-        m_itemEntry->Activate();
+        m_itemEntry->Activate(QX11Info::getTimestamp());
 
         if (!m_titles.isEmpty())
             return;
@@ -327,7 +332,7 @@ void AppItem::mousePressEvent(QMouseEvent *e)
     {
         if (perfectIconRect().contains(e->pos()))
         {
-            QMetaObject::invokeMethod(this, "showContextMenu", Qt::QueuedConnection);
+            m_actionMenu->hide();
             return;
         } else {
             return QWidget::mousePressEvent(e);
@@ -405,7 +410,109 @@ void AppItem::dropEvent(QDropEvent *e)
     }
 
     qDebug() << "accept drop event with URIs: " << uriList;
-    m_itemEntry->HandleDragDrop(uriList);
+    m_itemEntry->HandleDragDrop(QX11Info::getTimestamp(), uriList);
+}
+
+void AppItem::contextMenuEvent(QContextMenuEvent *event)
+{
+    Q_UNUSED(event);
+
+    for (QAction *action : m_actionMenu->actions())
+        action->deleteLater();
+    m_actionMenu->clear();
+
+    if (m_titles.count() == 0) {
+        QAction *newWindow = new QAction("新建实例", this);
+
+        const bool isLock = m_itemEntry->isDocked();
+        QAction *lock = new QAction(isLock ? "取消驻留" : "驻留", this);
+
+        QJsonObject obj;
+
+        obj["data"] = "new";
+        newWindow->setData(obj);
+        obj["data"] = "lock";
+        lock->setData(obj);
+
+        m_actionMenu->addAction(newWindow);
+        m_actionMenu->addAction(lock);
+
+    } else if (m_titles.count() == 1) {
+        QAction *newWindow = new QAction("新建实例", this);
+
+        const bool isLock = m_itemEntry->isDocked();
+        QAction *lock = new QAction(isLock ? "取消驻留" : "驻留", this);
+        QAction* minWindow = new QAction("最小化", this);
+        QAction* maxWindow = new QAction("最大化", this);
+        QAction* moveWindow = new QAction("移动", this);
+        QAction* closeWindow = new QAction("关闭", this);
+        QAction* onTopWindow = new QAction("置顶", this);
+
+        QJsonObject obj;
+        obj.insert("id", QString::number(m_titles.keys().first()));
+
+        obj["data"] = "new";
+        newWindow->setData(obj);
+        obj["data"] = "min";
+        minWindow->setData(obj);
+        obj["data"] = "max";
+        maxWindow->setData(obj);
+        obj["data"] = "move";
+        moveWindow->setData(obj);
+        obj["data"] = "close";
+        closeWindow->setData(obj);
+        obj["data"] = "top";
+        onTopWindow->setData(obj);
+        obj["data"] = "lock";
+        lock->setData(obj);
+
+        QList<QAction*> list;
+        list << newWindow << minWindow << maxWindow << moveWindow << closeWindow << onTopWindow << lock;
+
+        m_actionMenu->addActions(list);
+    } else {
+        QAction *newWindow = new QAction("新建实例", this);
+        const bool isLock = m_itemEntry->isDocked();
+        QAction *lock = new QAction(isLock ? "取消驻留" : "驻留", this);
+
+        QJsonObject obj;
+        m_actionMenu->addAction(newWindow);
+        obj["data"] = "new";
+        newWindow->setData(obj);
+
+        for (int i(0); i != m_titles.count(); ++i) {
+            QAction* minWindow = new QAction("最小化", this);
+            QAction* maxWindow = new QAction("最大化", this);
+            QAction* moveWindow = new QAction("移动", this);
+            QAction* closeWindow = new QAction("关闭", this);
+            QAction* onTopWindow = new QAction("置顶", this);
+
+            obj.insert("id", QString::number(m_titles.keys().at(i)));
+
+            obj["data"] = "min";
+            minWindow->setData(obj);
+            obj["data"] = "max";
+            maxWindow->setData(obj);
+            obj["data"] = "move";
+            moveWindow->setData(obj);
+            obj["data"] = "close";
+            closeWindow->setData(obj);
+            obj["data"] = "top";
+            onTopWindow->setData(obj);
+            obj["data"] = "lock";
+            lock->setData(obj);
+
+            QList<QAction*> list;
+            list << minWindow << maxWindow << moveWindow << closeWindow << onTopWindow;
+
+            QMenu * menu = new QMenu(m_titles.values().at(i));
+            menu->addActions(list);
+            m_actionMenu->addMenu(menu);
+        }
+        m_actionMenu->addAction(lock);
+    }
+
+    m_actionMenu->exec(QCursor::pos());
 }
 
 void AppItem::showHoverTips()
@@ -420,7 +527,7 @@ void AppItem::invokedMenuItem(const QString &itemId, const bool checked)
 {
     Q_UNUSED(checked);
 
-    m_itemEntry->HandleMenuItem(itemId);
+    m_itemEntry->HandleMenuItem(QX11Info::getTimestamp(), itemId);
 }
 
 const QString AppItem::contextMenu() const
@@ -472,7 +579,7 @@ void AppItem::startDrag()
 
 void AppItem::updateTitle()
 {
-    m_titles = m_itemEntry->titles();
+    m_titles = m_itemEntry->windowTitles();
     m_appPreviewTips->setWindowInfos(m_titles);
     m_updateIconGeometryTimer->start();
 
@@ -500,7 +607,7 @@ void AppItem::refershIcon()
 
 void AppItem::activeChanged()
 {
-    m_active = !m_active;
+    m_active = m_itemEntry->isActive();
 }
 
 void AppItem::showPreview()
@@ -526,5 +633,35 @@ void AppItem::showPreview()
     m_appPreviewTips->updateLayoutDirection(DockPosition);
 
     showPopupWindow(m_appPreviewTips, true);
+}
+
+void AppItem::onMenuTriggered(QAction *action)
+{
+    const QJsonObject &obj = action->data().toJsonObject();
+    const QString &data = obj["data"].toString();
+    const int id = obj["id"].toString().toInt();
+
+    if (data == "new")
+        m_itemEntry->NewInstance(QX11Info::getTimestamp());
+
+    if (data == "min")
+        m_dbusDock->MinimizeWindow(id);
+
+    if (data == "max")
+        m_dbusDock->MaximizeWindow(id);
+
+    if (data == "close")
+        m_dbusDock->CloseWindow(id);
+
+    if (data == "lock") {
+        const bool isLock = m_itemEntry->isDocked();
+        isLock ? m_itemEntry->RequestUndock() : m_itemEntry->RequestDock();
+    }
+
+    if (data == "top")
+        m_dbusDock->MakeWindowAbove(id);
+
+    if (data == "move")
+        m_dbusDock->MoveWindow(id);
 }
 

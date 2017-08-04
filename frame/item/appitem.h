@@ -5,7 +5,7 @@
 #include "components/previewcontainer.h"
 #include "dbus/dbusdockentry.h"
 #include "dbus/dbusclientmanager.h"
-
+#include "dbus/dbusdock.h"
 #include <QGraphicsView>
 #include <QGraphicsItem>
 
@@ -42,7 +42,7 @@ private:
     void dragEnterEvent(QDragEnterEvent *e);
     void dragMoveEvent(QDragMoveEvent *e);
     void dropEvent(QDropEvent *e);
-
+    void contextMenuEvent(QContextMenuEvent *event);
     void showHoverTips();
     void invokedMenuItem(const QString &itemId, const bool checked);
     const QString contextMenu() const;
@@ -55,6 +55,7 @@ private slots:
     void refershIcon();
     void activeChanged();
     void showPreview();
+    void onMenuTriggered(QAction *action);
 
 private:
     QLabel *m_appNameTips;
@@ -82,6 +83,9 @@ private:
 
     static int IconBaseSize;
     static QPoint MousePressPos;
+
+    DBusDock *m_dbusDock;
+    QMenu *m_actionMenu;
 };
 
 #endif // APPITEM_H

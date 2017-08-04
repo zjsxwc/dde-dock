@@ -33,7 +33,7 @@ DockSettings::DockSettings(QWidget *parent)
       m_smartHideAct(tr("Smart Hide"), this),
 
       m_displayInter(new DBusDisplay(this)),
-      m_dockInter(new DBusDock(this)),
+      m_dockInter(new DBusDock("com.deepin.dde.daemon.Dock", "/com/deepin/dde/daemon/Dock", QDBusConnection::sessionBus(), this)),
       m_itemController(DockItemController::instance(this))
 {
     m_primaryRect = m_displayInter->primaryRect();
