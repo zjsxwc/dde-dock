@@ -53,6 +53,7 @@ private:
 private slots:
     void updateTitle();
     void refershIcon();
+    void refreshIconInteral();
     void activeChanged();
     void showPreview();
     void onMenuTriggered(QAction *action);
@@ -61,6 +62,7 @@ private:
     QLabel *m_appNameTips;
     PreviewContainer *m_appPreviewTips;
     DBusDockEntry *m_itemEntry;
+    QTimer *m_refreshIconTimer;
 
     QGraphicsView *m_itemView;
     QGraphicsScene *m_itemScene;
