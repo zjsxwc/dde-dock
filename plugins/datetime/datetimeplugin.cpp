@@ -116,9 +116,9 @@ void DatetimePlugin::updateCurrentTimeString()
     const QDateTime currentDateTime = QDateTime::currentDateTime();
 
     if (m_centralWidget->is24HourFormat())
-        m_dateTipsLabel->setText(currentDateTime.toString("yyyy 年 MM 月 dd 日"));
+        m_dateTipsLabel->setText(currentDateTime.toString("yyyy 年 MM 月 dd 日 HH:mm:ss"));
     else
-        m_dateTipsLabel->setText(currentDateTime.toString("yyyy 年 MM 月 dd 日 A"));
+        m_dateTipsLabel->setText(currentDateTime.toString("yyyy 年 MM 月 dd 日 HH:mm:ss A"));
 
     const QString currentString = currentDateTime.toString("mm");
 
