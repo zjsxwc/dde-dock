@@ -34,7 +34,7 @@ AppSnapshot::AppSnapshot(const WId wid, QWidget *parent)
 
     setLayout(centralLayout);
     setAcceptDrops(true);
-    setFixedSize(SNAP_WIDTH, SNAP_HEIGHT);
+    resize(SNAP_WIDTH, SNAP_HEIGHT);
 
     connect(m_closeBtn, &DImageButton::clicked, this, &AppSnapshot::closeWindow, Qt::QueuedConnection);
     connect(m_wmHelper, &DWindowManagerHelper::hasCompositeChanged, this, &AppSnapshot::compositeChanged, Qt::QueuedConnection);

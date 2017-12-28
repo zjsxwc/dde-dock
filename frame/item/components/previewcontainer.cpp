@@ -60,9 +60,9 @@ void PreviewContainer::setWindowInfos(const WindowDict &infos)
     {
         emit requestCancelPreview();
         emit requestHidePreview();
-    } else {
-        adjustSize();
     }
+
+    adjustSize();
 }
 
 void PreviewContainer::updateSnapshots()
