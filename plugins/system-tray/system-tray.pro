@@ -10,19 +10,27 @@ TARGET          = $$qtLibraryTarget(system-tray)
 DESTDIR          = $$_PRO_FILE_PWD_/../
 DISTFILES       += system-tray.json
 
+isEqual(DOCK_TRAY_USE_NATIVE_POPUP, YES) {
+    DEFINES += DOCK_TRAY_USE_NATIVE_POPUP
+}
+
 HEADERS += \
     systemtrayplugin.h \
     dbus/dbustraymanager.h \
-    traywidget.h \
     fashiontrayitem.h \
-    tipswidget.h
+    tipswidget.h \
+    xwindowtraywidget.h \
+    indicatortraywidget.h \
+    abstracttraywidget.h
 
 SOURCES += \
     systemtrayplugin.cpp \
     dbus/dbustraymanager.cpp \
-    traywidget.cpp \
     fashiontrayitem.cpp \
-    tipswidget.cpp
+    tipswidget.cpp \
+    xwindowtraywidget.cpp \
+    indicatortraywidget.cpp \
+    abstracttraywidget.cpp
 
 target.path = $${PREFIX}/lib/dde-dock/plugins/
 INSTALLS += target
