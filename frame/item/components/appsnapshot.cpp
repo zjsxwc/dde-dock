@@ -34,12 +34,12 @@ AppSnapshot::AppSnapshot(const WId wid, QWidget *parent)
 
     setLayout(centralLayout);
     setAcceptDrops(true);
+    setFixedSize(SNAP_WIDTH, SNAP_HEIGHT);
 
     connect(m_closeBtn, &DImageButton::clicked, this, &AppSnapshot::closeWindow, Qt::QueuedConnection);
     connect(m_wmHelper, &DWindowManagerHelper::hasCompositeChanged, this, &AppSnapshot::compositeChanged, Qt::QueuedConnection);
 
     QTimer::singleShot(1, this, &AppSnapshot::compositeChanged);
-//    QTimer::singleShot(1, this, &AppSnapshot::fetchSnapshot);
 }
 
 void AppSnapshot::closeWindow() const
@@ -126,6 +126,11 @@ void AppSnapshot::fetchSnapshot()
         m_snapshot = qimage.copy();
     }
 
+    const auto size = rect().marginsRemoved(QMargins(8, 8, 8, 8)).size();
+    const auto ratio = devicePixelRatioF();
+    m_snapshot = m_snapshot.scaled(size * ratio, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    m_snapshot.setDevicePixelRatio(ratio);
+
     XDestroyImage(ximage);
     XFree(prop_to_return);
 
@@ -168,7 +173,7 @@ void AppSnapshot::paintEvent(QPaintEvent *e)
     const QRect r = rect().marginsRemoved(QMargins(8, 8, 8, 8));
 
     // draw image
-    const QImage im = m_snapshot.scaled(r.size(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    const QImage &im = m_snapshot;
     const QRect ir = im.rect();
     const QPoint offset = r.center() - ir.center();
     painter.drawImage(offset.x(), offset.y(), im);
