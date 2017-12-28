@@ -34,8 +34,7 @@ AppItem::AppItem(const QDBusObjectPath &entry, QWidget *parent)
 
       m_draging(false),
 
-      m_smallIcon(QPixmap()),
-      m_largeIcon(QPixmap()),
+      m_appIcon(QPixmap()),
 
       m_horizontalIndicator(QPixmap(":/indicator/resources/indicator.png")),
       m_verticalIndicator(QPixmap(":/indicator/resources/indicator_ver.png")),
@@ -252,7 +251,7 @@ void AppItem::paintEvent(QPaintEvent *e)
     }
 
     // icon
-    const QPixmap pixmap = DockDisplayMode == Efficient ? m_smallIcon : m_largeIcon;
+    const QPixmap &pixmap = m_appIcon;
     if (pixmap.isNull())
         return;
 
@@ -280,7 +279,7 @@ void AppItem::mouseReleaseEvent(QMouseEvent *e)
         // start launching effects
         m_itemScene->clear();
         const QRect r = rect();
-        const QPixmap icon = DockDisplayMode == Efficient ? m_smallIcon : m_largeIcon;
+        const QPixmap &icon = m_appIcon;
         QGraphicsPixmapItem *item = m_itemScene->addPixmap(icon);
         item->setTransformationMode(Qt::SmoothTransformation);
         item->setPos(r.center() - icon.rect().center());
@@ -450,7 +449,7 @@ void AppItem::startDrag()
     m_draging = true;
     update();
 
-    const QPixmap dragPix = DockDisplayMode == Dock::Fashion ? m_largeIcon : m_smallIcon;
+    const QPixmap &dragPix = m_appIcon;
 
     QDrag *drag = new QDrag(this);
     drag->setPixmap(dragPix);
@@ -485,13 +484,9 @@ void AppItem::refershIcon()
     const int iconSize = qMin(width(), height());
 
     if (DockDisplayMode == Efficient)
-    {
-        m_smallIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.7);
-        m_largeIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.9);
-    } else {
-        m_smallIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.6);
-        m_largeIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.8);
-    }
+        m_appIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.7);
+    else
+        m_appIcon = ThemeAppIcon::getIcon(icon, iconSize * 0.8);
 
     update();
 
