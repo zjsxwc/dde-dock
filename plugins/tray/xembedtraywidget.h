@@ -41,6 +41,7 @@ public:
     const QImage trayImage() Q_DECL_OVERRIDE;
     void sendClick(uint8_t mouseButton, int x, int y) Q_DECL_OVERRIDE;
 
+    QString getAppName();
     static QString getWindowProperty(quint32 winId, QString propName);
     static QString toXEmbedKey(quint32 winId);
     static bool isXEmbedKey(const QString &itemKey);

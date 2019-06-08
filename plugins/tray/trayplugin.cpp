@@ -395,7 +395,14 @@ void TrayPlugin::trayXEmbedAdded(const QString &itemKey, quint32 winId)
         return;
     }
 
-    AbstractTrayWidget *trayWidget = new XEmbedTrayWidget(winId);
+    XEmbedTrayWidget *trayWidget = new XEmbedTrayWidget(winId);
+    QString appName = trayWidget->getAppName();
+    if (appName == "Deepin-QQ") {
+        //有bug我不要显示 QQ 托盘在dock里
+        trayWidget = nullptr;
+        return;
+    }
+
     addTrayWidget(itemKey, trayWidget);
 }
 

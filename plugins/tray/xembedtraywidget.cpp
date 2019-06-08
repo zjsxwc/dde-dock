@@ -335,6 +335,11 @@ void XEmbedTrayWidget::sendClick(uint8_t mouseButton, int x, int y)
     QTimer::singleShot(100, this, [=] { setX11PassMouseEvent(true); });
 }
 
+QString XEmbedTrayWidget::getAppName()
+{
+    return m_appName;
+}
+
 // NOTE: WM_NAME may can not obtain successfully
 QString XEmbedTrayWidget::getWindowProperty(quint32 winId, QString propName)
 {
