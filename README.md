@@ -19,3 +19,16 @@ We encourage you to report issues and contribute changes
 
 * [Contribution guide for developers](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en). (English)
 * [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
+
+
+ ~/Desktop/dde-dock/build
+
+ sudo mv /usr/lib/dde-dock/plugins/libtray.so /usr/lib/dde-dock/plugins/libtray.so.old
+ \cp plugins/libtray.so /usr/lib/dde-dock/plugins/libtray.so
+ sudo \cp plugins/libtray.so /usr/lib/dde-dock/plugins/libtray.so
+ ls -la /usr/lib/dde-dock/plugins/
+ sudo chmod 644 /usr/lib/dde-dock/plugins/libtray.so
+ ls -la /usr/lib/dde-dock/plugins/
+
+
+
