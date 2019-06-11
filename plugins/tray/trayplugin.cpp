@@ -397,11 +397,13 @@ void TrayPlugin::trayXEmbedAdded(const QString &itemKey, quint32 winId)
 
     XEmbedTrayWidget *trayWidget = new XEmbedTrayWidget(winId);
     QString appName = trayWidget->getAppName();
+
     if ((appName == "Deepin-QQ") || (appName == "sogou-qimpanel")) {
         //由于和topbar抢夺信息，导致bug，不要显示 QQ 、搜狗 托盘在dock里，而显示到topbar里
         trayWidget = nullptr;
         return;
     }
+    return;
 
     addTrayWidget(itemKey, trayWidget);
 }

@@ -21,6 +21,8 @@ We encourage you to report issues and contribute changes
 * [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) (中文)
 
 
+kill -9 `ps aux | grep dde-dock | head -n 1 | awk '{print $2}'`; ./frame/dde-dock
+
  ~/Desktop/dde-dock/build
 
  sudo mv /usr/lib/dde-dock/plugins/libtray.so /usr/lib/dde-dock/plugins/libtray.so.old

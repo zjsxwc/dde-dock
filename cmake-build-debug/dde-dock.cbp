@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dde-dock"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\plugins\;CMake Files\plugins\datetime\;CMake Files\plugins\network\;CMake Files\plugins\shutdown\;CMake Files\plugins\power\;CMake Files\plugins\sound\;CMake Files\plugins\sound\resources\;CMake Files\plugins\tray\;CMake Files\plugins\trash\;CMake Files\plugins\keyboard-layout\;CMake Files\plugins\onboard\;CMake Files\plugins\overlay-warning\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DFrameworkdbus\;CMake Files\frame\;CMake Files\frame\item\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dde-dock">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/frame"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1/QtCore"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/frame/../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 dde-dock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dde-dock/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/frame"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1/QtCore"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/frame/../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 dde-dock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dde-dock_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 dde-dock_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datetime">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libdatetime.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 datetime"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datetime/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libdatetime.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 datetime/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datetime_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 datetime_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libnetwork.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libnetwork.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 network_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shutdown">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libshutdown.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 shutdown"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shutdown/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libshutdown.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 shutdown/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shutdown_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 shutdown_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="power">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libpower.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 power"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="power/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libpower.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 power/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="power_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 power_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sound">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libsound.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 sound"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sound/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/system-trays/libsound.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/sound/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 sound/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sound_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 sound_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tray">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libtray.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/tray_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/dbusmenu-qt5"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 tray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tray/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libtray.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/tray_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/dbusmenu-qt5"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray/../../interfaces"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/tray/../../frame"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 tray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tray_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 tray_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trash">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libtrash.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/trash"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/trash_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/trash/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 trash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trash/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libtrash.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/trash"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/trash_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/trash/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 trash/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trash_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 trash_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libkeyboard-layout.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libkeyboard-layout.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onboard">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libonboard.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/onboard"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/onboard_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/onboard/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 onboard"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onboard/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libonboard.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/onboard"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/onboard_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/onboard/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 onboard/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onboard_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 onboard_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="overlay-warning">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/liboverlay-warning.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/overlay-warning_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 overlay-warning"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="overlay-warning/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/liboverlay-warning.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/overlay-warning_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 overlay-warning/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="overlay-warning_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 overlay-warning_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/EWIEGA46WW/qrc_frame.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/EWIEGA46WW/qrc_frame.cpp.rule">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/GCPDG3WMVT/qrc_item.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/GCPDG3WMVT/qrc_item.cpp.rule">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/mocs_compilation.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/EWIEGA46WW/qrc_datetime.cpp">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/EWIEGA46WW/qrc_datetime.cpp.rule">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/mocs_compilation.cpp">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/mocs_compilation.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/EWIEGA46WW/qrc_network.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/EWIEGA46WW/qrc_network.cpp.rule">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/mocs_compilation.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/onboard_autogen/EWIEGA46WW/qrc_onboard.cpp">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/onboard_autogen/EWIEGA46WW/qrc_onboard.cpp.rule">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/onboard/onboard_autogen/mocs_compilation.cpp">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/overlay-warning_autogen/EWIEGA46WW/qrc_overlay-warning.cpp">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/overlay-warning_autogen/EWIEGA46WW/qrc_overlay-warning.cpp.rule">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/overlay-warning/overlay-warning_autogen/mocs_compilation.cpp">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/EWIEGA46WW/qrc_power.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/EWIEGA46WW/qrc_power.cpp.rule">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/mocs_compilation.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/EWIEGA46WW/qrc_shutdown.cpp">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/EWIEGA46WW/qrc_shutdown.cpp.rule">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/mocs_compilation.cpp">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/3YJK5W5UP7/qrc_sound.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/3YJK5W5UP7/qrc_sound.cpp.rule">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/mocs_compilation.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/trash/trash_autogen/mocs_compilation.cpp">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/tray_autogen/EWIEGA46WW/qrc_tray.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/tray_autogen/EWIEGA46WW/qrc_tray.cpp.rule">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/tray/tray_autogen/mocs_compilation.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/controller/dockitemcontroller.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/controller/dockitemcontroller.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/controller/dockpluginscontroller.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/controller/dockpluginscontroller.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusclientmanager.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusclientmanager.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdisplay.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdisplay.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdockadaptors.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdockadaptors.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenu.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenu.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenumanager.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenumanager.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/sni/statusnotifierwatcher_interface.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/dbus/sni/statusnotifierwatcher_interface.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/frame.qrc">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/appitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/appitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appdrag.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appdrag.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appdragwidget.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appdragwidget.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appsnapshot.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appsnapshot.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appspreviewprovider.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/appswingeffectbuilder.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/containerwidget.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/containerwidget.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/floatingpreview.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/floatingpreview.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/previewcontainer.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/components/previewcontainer.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/containeritem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/containeritem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/dockitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/dockitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/item.qrc">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/launcheritem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/launcheritem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/placeholderitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/placeholderitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/pluginsitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/pluginsitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/showdesktopitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/showdesktopitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/stretchitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/stretchitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/traypluginitem.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/traypluginitem.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/main.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/panel/mainpanel.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/panel/mainpanel.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/abstractpluginscontroller.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/abstractpluginscontroller.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/dockpopupwindow.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/dockpopupwindow.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/docksettings.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/docksettings.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/imagefactory.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/imagefactory.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/pluginloader.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/pluginloader.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/themeappicon.cpp">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/themeappicon.h">
+			<Option target="dde-dock"/>
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/util/utils.h">
+			<Option target="dde-dock"/>
+			<Option target="network"/>
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/window/mainwindow.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/window/mainwindow.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/xcb/xcb_misc.cpp">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/xcb/xcb_misc.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/interfaces/constants.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/interfaces/pluginproxyinterface.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/interfaces/pluginsiteminterface.h">
+			<Option target="dde-dock"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetime.qrc">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetimeplugin.cpp">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetimeplugin.h">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetimewidget.cpp">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetimewidget.h">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/dbusadaptors.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/dbusadaptors.h">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/keyboardplugin.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/keyboardplugin.h">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspoint.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspoint.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspointwidget.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspointwidget.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/devicecontrolwidget.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/devicecontrolwidget.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/wirelesslist.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/wirelesslist.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/deviceitem.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/deviceitem.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/wireditem.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/wireditem.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/wirelessitem.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/item/wirelessitem.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/network.qrc">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/networkplugin.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/networkplugin.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/util/imageutil.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/util/imageutil.h">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboard.qrc">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboarditem.cpp">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboarditem.h">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboardplugin.cpp">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboardplugin.h">
+			<Option target="onboard"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning-plugin.cpp">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning-plugin.h">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning.qrc">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/pluginwidget.cpp">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/pluginwidget.h">
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/dbus/dbusaccount.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/dbus/dbusaccount.h">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/dbus/dbuspower.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/dbus/dbuspower.h">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/power.qrc">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/powerplugin.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/powerplugin.h">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/powerstatuswidget.cpp">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/powerstatuswidget.h">
+			<Option target="power"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.cpp">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.h">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/pluginwidget.cpp">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/pluginwidget.h">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdown.qrc">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdownplugin.cpp">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdownplugin.h">
+			<Option target="shutdown"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/componments/horizontalseparator.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/componments/horizontalseparator.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/componments/volumeslider.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/componments/volumeslider.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbusaudio.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbusaudio.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussink.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussink.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussinkinput.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussinkinput.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/resources/sound.qrc">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/sinkinputwidget.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/sinkinputwidget.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/soundapplet.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/soundapplet.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/sounditem.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/sounditem.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/soundplugin.cpp">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/soundplugin.h">
+			<Option target="sound"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.cpp">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.h">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/trashplugin.cpp">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/trashplugin.h">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.cpp">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.h">
+			<Option target="trash"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/abstracttraywidget.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/abstracttraywidget.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/dbus/dbustraymanager.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/dbus/dbustraymanager.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/abstractcontainer.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/abstractcontainer.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/attentioncontainer.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/attentioncontainer.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/holdcontainer.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/holdcontainer.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/normalcontainer.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/normalcontainer.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/spliteranimated.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/containers/spliteranimated.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontrayconstants.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontraycontrolwidget.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontraycontrolwidget.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontrayitem.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontrayitem.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontraywidgetwrapper.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/fashiontray/fashiontraywidgetwrapper.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/indicatortray.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/indicatortray.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/indicatortraywidget.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/indicatortraywidget.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/snitraywidget.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/snitraywidget.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/system-trays/systemtrayitem.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/system-trays/systemtrayitem.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/system-trays/systemtrayscontroller.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/system-trays/systemtrayscontroller.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/tray.qrc">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/trayplugin.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/trayplugin.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/xembedtraywidget.cpp">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/xembedtraywidget.h">
+			<Option target="tray"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/widgets/tipswidget.cpp">
+			<Option target="dde-dock"/>
+			<Option target="datetime"/>
+			<Option target="network"/>
+			<Option target="shutdown"/>
+			<Option target="power"/>
+			<Option target="sound"/>
+			<Option target="tray"/>
+			<Option target="onboard"/>
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/widgets/tipswidget.h">
+			<Option target="dde-dock"/>
+			<Option target="datetime"/>
+			<Option target="network"/>
+			<Option target="shutdown"/>
+			<Option target="power"/>
+			<Option target="sound"/>
+			<Option target="tray"/>
+			<Option target="onboard"/>
+			<Option target="overlay-warning"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\datetime\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetime.qrc">
+			<Option virtualFolder="CMake Files\plugins\datetime\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\network\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/network.qrc">
+			<Option virtualFolder="CMake Files\plugins\network\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\shutdown\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdown.qrc">
+			<Option virtualFolder="CMake Files\plugins\shutdown\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\power\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/power.qrc">
+			<Option virtualFolder="CMake Files\plugins\power\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\sound\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/resources/sound.qrc">
+			<Option virtualFolder="CMake Files\plugins\sound\resources\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\tray\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/tray.qrc">
+			<Option virtualFolder="CMake Files\plugins\tray\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\trash\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\keyboard-layout\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\onboard\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboard.qrc">
+			<Option virtualFolder="CMake Files\plugins\onboard\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\overlay-warning\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning.qrc">
+			<Option virtualFolder="CMake Files\plugins\overlay-warning\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkWidget/DtkWidgetConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Dtk/DtkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkCore/DtkCoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DFrameworkdbus/DFrameworkdbusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DFrameworkdbus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/environments.h.in">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/frame.qrc">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/item.qrc">
+			<Option virtualFolder="CMake Files\frame\item\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

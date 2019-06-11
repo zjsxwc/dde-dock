@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="keyboard-layout"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\plugins\;CMake Files\plugins\datetime\;CMake Files\plugins\network\;CMake Files\plugins\shutdown\;CMake Files\plugins\power\;CMake Files\plugins\sound\;CMake Files\plugins\sound\resources\;CMake Files\plugins\tray\;CMake Files\plugins\trash\;CMake Files\plugins\keyboard-layout\;CMake Files\plugins\onboard\;CMake Files\plugins\overlay-warning\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DFrameworkdbus\;CMake Files\frame\;CMake Files\frame\item\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libkeyboard-layout.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout/fast">
+				<Option output="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/libkeyboard-layout.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/../../interfaces"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keyboard-layout_autogen">
+				<Option working_dir="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 keyboard-layout_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/keyboard-layout/keyboard-layout_autogen/mocs_compilation.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/dbusadaptors.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/dbusadaptors.h">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/keyboardplugin.cpp">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/keyboardplugin.h">
+			<Option target="keyboard-layout"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\datetime\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/datetime/datetime.qrc">
+			<Option virtualFolder="CMake Files\plugins\datetime\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\network\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/network/network.qrc">
+			<Option virtualFolder="CMake Files\plugins\network\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\shutdown\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdown.qrc">
+			<Option virtualFolder="CMake Files\plugins\shutdown\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\power\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/power/power.qrc">
+			<Option virtualFolder="CMake Files\plugins\power\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\sound\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/sound/resources/sound.qrc">
+			<Option virtualFolder="CMake Files\plugins\sound\resources\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\tray\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/tray/tray.qrc">
+			<Option virtualFolder="CMake Files\plugins\tray\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/trash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\trash\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/keyboard-layout/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\keyboard-layout\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\onboard\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/onboard/onboard.qrc">
+			<Option virtualFolder="CMake Files\plugins\onboard\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\overlay-warning\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning.qrc">
+			<Option virtualFolder="CMake Files\plugins\overlay-warning\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkWidget/DtkWidgetConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Dtk/DtkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkCore/DtkCoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/../../../../usr/lib/x86_64-linux-gnu/cmake/DFrameworkdbus/DFrameworkdbusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DFrameworkdbus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/environments.h.in">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/frame.qrc">
+			<Option virtualFolder="CMake Files\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/dde-dock/frame/item/item.qrc">
+			<Option virtualFolder="CMake Files\frame\item\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
