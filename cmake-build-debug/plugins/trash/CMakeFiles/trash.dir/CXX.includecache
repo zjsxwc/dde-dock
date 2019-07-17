@@ -132,19 +132,19 @@ QMenu
 QAction
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
 dapplication.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DDesktopServices
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DDesktopServices
 ddesktopservices.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/ddesktopservices.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/ddesktopservices.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DTrashManager
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DTrashManager
 dtrashmanager.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtrashmanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtrashmanager.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
 QDialog
 -
 QPoint
@@ -152,37 +152,37 @@ QPoint
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 QApplication
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/ddesktopservices.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/ddesktopservices.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 QUrl
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
 QIcon
 -
 dabstractdialog.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dlinkbutton.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dlinkbutton.h
 QPushButton
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dtkcore_global.h
 -
 dtkwidget_config.h
@@ -190,27 +190,27 @@ dtkwidget_config.h
 QtCore/QMetaMethod
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtrashmanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtrashmanager.h
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 QObject
 -
 
-/usr/include/libdtk-2.0.13/DCore/DObject
+/usr/include/libdtk-2.0.14/DCore/DObject
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 QScopedPointer
 -
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QtCore/qglobal.h
 -
 dtkcore_config.h

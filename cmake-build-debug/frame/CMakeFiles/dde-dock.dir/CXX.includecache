@@ -472,8 +472,6 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
-/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/EWIEGA46WW/qrc_frame.cpp
-
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/GCPDG3WMVT/moc_appitem.cpp
 ../../../../frame/item/appitem.h
 /home/wangchao/Desktop/dde-dock/frame/item/appitem.h
@@ -545,8 +543,6 @@ QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
-
-/home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/GCPDG3WMVT/qrc_item.cpp
 
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/frame/dde-dock_autogen/KH43KSYMFX/moc_abstractpluginscontroller.cpp
 ../../../../frame/util/abstractpluginscontroller.h
@@ -828,10 +824,6 @@ QMap
 QDBusConnectionInterface
 -
 
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusclientmanager.cpp
-dbusclientmanager.h
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusclientmanager.h
-
 /home/wangchao/Desktop/dde-dock/frame/dbus/dbusclientmanager.h
 QtCore/QObject
 -
@@ -849,10 +841,6 @@ QtCore/QVariant
 -
 QtDBus/QtDBus
 -
-
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdisplay.cpp
-dbusdisplay.h
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusdisplay.h
 
 /home/wangchao/Desktop/dde-dock/frame/dbus/dbusdisplay.h
 QtCore/QObject
@@ -888,10 +876,6 @@ QtDBus/QtDBus
 window/mainwindow.h
 /home/wangchao/Desktop/dde-dock/frame/dbus/window/mainwindow.h
 
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenu.cpp
-dbusmenu.h
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenu.h
-
 /home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenu.h
 QtCore/QObject
 -
@@ -910,10 +894,6 @@ QtCore/QVariant
 QtDBus/QtDBus
 -
 
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenumanager.cpp
-dbusmenumanager.h
-/home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenumanager.h
-
 /home/wangchao/Desktop/dde-dock/frame/dbus/dbusmenumanager.h
 QtCore/QObject
 -
@@ -931,10 +911,6 @@ QtCore/QVariant
 -
 QtDBus/QtDBus
 -
-
-/home/wangchao/Desktop/dde-dock/frame/dbus/sni/statusnotifierwatcher_interface.cpp
-statusnotifierwatcher_interface.h
-/home/wangchao/Desktop/dde-dock/frame/dbus/sni/statusnotifierwatcher_interface.h
 
 /home/wangchao/Desktop/dde-dock/frame/dbus/sni/statusnotifierwatcher_interface.h
 QtCore/QObject
@@ -1007,10 +983,6 @@ QGraphicsItemAnimation
 -
 com_deepin_dde_daemon_dock_entry.h
 -
-
-/home/wangchao/Desktop/dde-dock/frame/item/components/appdrag.cpp
-appdrag.h
-/home/wangchao/Desktop/dde-dock/frame/item/components/appdrag.h
 
 /home/wangchao/Desktop/dde-dock/frame/item/components/appdrag.h
 appdragwidget.h
@@ -1140,16 +1112,6 @@ QWidget
 QPointer
 -
 dimagebutton.h
--
-
-/home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.cpp
-hoverhighlighteffect.h
-/home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.h
-util/imagefactory.h
-/home/wangchao/Desktop/dde-dock/frame/item/components/util/imagefactory.h
-QPainter
--
-QDebug
 -
 
 /home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.h
@@ -1293,20 +1255,6 @@ dockitem.h
 /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
 pluginsiteminterface.h
 /home/wangchao/Desktop/dde-dock/frame/item/pluginsiteminterface.h
-
-/home/wangchao/Desktop/dde-dock/frame/item/showdesktopitem.cpp
-showdesktopitem.h
-/home/wangchao/Desktop/dde-dock/frame/item/showdesktopitem.h
-constants.h
-/home/wangchao/Desktop/dde-dock/frame/item/constants.h
-QLayout
--
-QProcess
--
-QPainter
--
-QMouseEvent
--
 
 /home/wangchao/Desktop/dde-dock/frame/item/showdesktopitem.h
 QLabel
@@ -1476,14 +1424,6 @@ QSize
 QStyleFactory
 -
 
-/home/wangchao/Desktop/dde-dock/frame/util/imagefactory.cpp
-imagefactory.h
-/home/wangchao/Desktop/dde-dock/frame/util/imagefactory.h
-QDebug
--
-QPainter
--
-
 /home/wangchao/Desktop/dde-dock/frame/util/imagefactory.h
 QObject
 -
@@ -1492,34 +1432,8 @@ QPixmap
 QImage
 -
 
-/home/wangchao/Desktop/dde-dock/frame/util/pluginloader.cpp
-pluginloader.h
-/home/wangchao/Desktop/dde-dock/frame/util/pluginloader.h
-QDir
--
-QDebug
--
-QLibrary
--
-
 /home/wangchao/Desktop/dde-dock/frame/util/pluginloader.h
 QThread
--
-
-/home/wangchao/Desktop/dde-dock/frame/util/themeappicon.cpp
-themeappicon.h
-/home/wangchao/Desktop/dde-dock/frame/util/themeappicon.h
-QIcon
--
-QFile
--
-QDebug
--
-QApplication
--
-QPixmapCache
--
-QCryptographicHash
 -
 
 /home/wangchao/Desktop/dde-dock/frame/util/themeappicon.h
@@ -1574,32 +1488,6 @@ QRect
 DPlatformWindowHandle
 -
 DWindowManagerHelper
--
-
-/home/wangchao/Desktop/dde-dock/frame/xcb/xcb_misc.cpp
-QDebug
--
-QX11Info
--
-QApplication
--
-xcb/xcb.h
--
-xcb/xcb_ewmh.h
--
-xcb_misc.h
-/home/wangchao/Desktop/dde-dock/frame/xcb/xcb_misc.h
-
-/home/wangchao/Desktop/dde-dock/frame/xcb/xcb_misc.h
-QtCore
--
-xcb/xcb_ewmh.h
--
-
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.cpp
-tipswidget.h
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
-QPainter
 -
 
 /home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
@@ -1708,31 +1596,31 @@ QDBusArgument
 QObject
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
 dapplication.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DBlurEffectWidget
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DBlurEffectWidget
 dblureffectwidget.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
 dplatformwindowhandle.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
 dwindowmanagerhelper.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 QApplication
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
 QDesktopWidget
 -
 QWidget
@@ -1752,25 +1640,25 @@ QTimer
 QDebug
 -
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dthememanager.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
 dgraphicsgloweffect.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
 dblureffectwidget.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 QWidget
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
 QGraphicsDropShadowEffect
 -
 QGraphicsEffect
@@ -1778,9 +1666,9 @@ QGraphicsEffect
 QPainter
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
 QObject
 -
 QWidget
@@ -1790,13 +1678,13 @@ QLabel
 QPixmap
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 QObject
 -
 QPainterPath
@@ -1808,15 +1696,15 @@ QRegion
 functional
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 QObject
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
 QObject
 -
 QString
@@ -1826,11 +1714,11 @@ QGlobalStatic
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dtkcore_global.h
 -
 dtkwidget_config.h
@@ -1838,73 +1726,73 @@ dtkwidget_config.h
 QtCore/QMetaMethod
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
 QWindow
 -
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/AbstractAppender.h
+/usr/include/libdtk-2.0.14/DCore/AbstractAppender.h
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 Logger.h
 -
 QMutex
 -
 
-/usr/include/libdtk-2.0.13/DCore/AbstractStringAppender.h
+/usr/include/libdtk-2.0.14/DCore/AbstractStringAppender.h
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 AbstractAppender.h
 -
 QReadWriteLock
 -
 
-/usr/include/libdtk-2.0.13/DCore/ConsoleAppender.h
+/usr/include/libdtk-2.0.14/DCore/ConsoleAppender.h
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 AbstractStringAppender.h
 -
 
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/DDBusSender
+/usr/include/libdtk-2.0.14/DCore/DDBusSender
 ddbussender.h
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 
-/usr/include/libdtk-2.0.13/DCore/DLog
+/usr/include/libdtk-2.0.14/DCore/DLog
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 RollingFileAppender.h
-/usr/include/libdtk-2.0.13/DCore/RollingFileAppender.h
+/usr/include/libdtk-2.0.14/DCore/RollingFileAppender.h
 Logger.h
-/usr/include/libdtk-2.0.13/DCore/Logger.h
+/usr/include/libdtk-2.0.14/DCore/Logger.h
 LogManager.h
-/usr/include/libdtk-2.0.13/DCore/LogManager.h
+/usr/include/libdtk-2.0.14/DCore/LogManager.h
 FileAppender.h
-/usr/include/libdtk-2.0.13/DCore/FileAppender.h
+/usr/include/libdtk-2.0.14/DCore/FileAppender.h
 ConsoleAppender.h
-/usr/include/libdtk-2.0.13/DCore/ConsoleAppender.h
+/usr/include/libdtk-2.0.14/DCore/ConsoleAppender.h
 AbstractStringAppender.h
-/usr/include/libdtk-2.0.13/DCore/AbstractStringAppender.h
+/usr/include/libdtk-2.0.14/DCore/AbstractStringAppender.h
 AbstractAppender.h
-/usr/include/libdtk-2.0.13/DCore/AbstractAppender.h
+/usr/include/libdtk-2.0.14/DCore/AbstractAppender.h
 
-/usr/include/libdtk-2.0.13/DCore/DNotifySender
+/usr/include/libdtk-2.0.14/DCore/DNotifySender
 dnotifysender.h
-/usr/include/libdtk-2.0.13/DCore/dnotifysender.h
+/usr/include/libdtk-2.0.14/DCore/dnotifysender.h
 
-/usr/include/libdtk-2.0.13/DCore/DObject
+/usr/include/libdtk-2.0.14/DCore/DObject
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/FileAppender.h
+/usr/include/libdtk-2.0.14/DCore/FileAppender.h
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 AbstractStringAppender.h
 -
 QFile
@@ -1912,13 +1800,13 @@ QFile
 QTextStream
 -
 
-/usr/include/libdtk-2.0.13/DCore/LogManager.h
+/usr/include/libdtk-2.0.14/DCore/LogManager.h
 QtCore
 -
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 
-/usr/include/libdtk-2.0.13/DCore/Logger.h
+/usr/include/libdtk-2.0.14/DCore/Logger.h
 QString
 -
 QDebug
@@ -1926,17 +1814,17 @@ QDebug
 QDateTime
 -
 CuteLogger_global.h
-/usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
+/usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
 
-/usr/include/libdtk-2.0.13/DCore/RollingFileAppender.h
+/usr/include/libdtk-2.0.14/DCore/RollingFileAppender.h
 QDateTime
 -
 FileAppender.h
 -
 
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QObject
 -
 QDBusConnection
@@ -1948,23 +1836,23 @@ QDBusInterface
 memory
 -
 
-/usr/include/libdtk-2.0.13/DCore/dnotifysender.h
+/usr/include/libdtk-2.0.14/DCore/dnotifysender.h
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QDBusPendingCall
 -
 memory
 -
 
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 QScopedPointer
 -
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QtCore/qglobal.h
 -
 dtkcore_config.h
@@ -1983,10 +1871,6 @@ QStringList
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
 qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QCryptographicHash
-qcryptographichash.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime
 qdatetime.h
@@ -2015,10 +1899,6 @@ qglobalstatic.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
 qjsonobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QLibrary
-qlibrary.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlibrary.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 qlist.h
@@ -4168,10 +4048,6 @@ qpainterpath.h
 qpixmap.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmapCache
-qpixmapcache.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmapcache.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QRegion
 qregion.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
@@ -4546,10 +4422,6 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmapcache.h
-QtGui/qpixmap.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
 QtCore/qvector.h
 -
@@ -4813,10 +4685,6 @@ qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLayout
-qlayout.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
 qmenu.h

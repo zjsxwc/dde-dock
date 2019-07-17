@@ -4,19 +4,19 @@
 plugins/trash/CMakeFiles/trash.dir/popupcontrolwidget.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.cpp
  /home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DDesktopServices
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DTrashManager
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/ddesktopservices.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dlinkbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtrashmanager.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DDesktopServices
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DTrashManager
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/ddesktopservices.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dlinkbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtrashmanager.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
@@ -154,11 +154,11 @@ plugins/trash/CMakeFiles/trash.dir/trash_autogen/mocs_compilation.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.h
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashplugin.h
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dlinkbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dlinkbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaMethod
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -391,14 +391,14 @@ plugins/trash/CMakeFiles/trash.dir/trashplugin.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashplugin.cpp
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashplugin.h
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dlinkbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dlinkbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaMethod
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -633,11 +633,11 @@ plugins/trash/CMakeFiles/trash.dir/trashwidget.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/trash/popupcontrolwidget.h
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.cpp
  /home/wangchao/Desktop/dde-dock/plugins/trash/trashwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dlinkbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dlinkbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFileSystemWatcher
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaMethod

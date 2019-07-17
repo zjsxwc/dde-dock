@@ -341,10 +341,10 @@ plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: ../plugins/dateti
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: ../plugins/datetime/datetimeplugin.h
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: ../plugins/datetime/datetimewidget.h
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: ../widgets/tipswidget.h
-plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.13/DCore/DDBusSender
-plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.13/DCore/ddbussender.h
-plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
-plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.14/DCore/DDBusSender
+plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer

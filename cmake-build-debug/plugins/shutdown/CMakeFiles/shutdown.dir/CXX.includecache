@@ -54,8 +54,6 @@ QtCore/qmetatype.h
 QtCore/qplugin.h
 -
 
-/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/EWIEGA46WW/qrc_shutdown.cpp
-
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/KS3UX4TNHX/moc_dbusaccount.cpp
 ../../../../../plugins/shutdown/dbus/dbusaccount.h
 /home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.h
@@ -73,10 +71,6 @@ EWIEGA46WW/moc_shutdownplugin.cpp
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/EWIEGA46WW/moc_shutdownplugin.cpp
 KS3UX4TNHX/moc_dbusaccount.cpp
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/KS3UX4TNHX/moc_dbusaccount.cpp
-
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.cpp
-dbusaccount.h
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.h
 
 /home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.h
 QtCore/QObject
@@ -96,34 +90,10 @@ QtCore/QVariant
 QtDBus/QtDBus
 -
 
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/pluginwidget.cpp
-pluginwidget.h
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/pluginwidget.h
-QSvgRenderer
--
-QPainter
--
-QMouseEvent
--
-QApplication
--
-QIcon
--
-
 /home/wangchao/Desktop/dde-dock/plugins/shutdown/pluginwidget.h
 constants.h
 /home/wangchao/Desktop/dde-dock/plugins/shutdown/constants.h
 QWidget
--
-
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdownplugin.cpp
-shutdownplugin.h
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdownplugin.h
-dbus/dbusaccount.h
-/home/wangchao/Desktop/dde-dock/plugins/shutdown/dbus/dbusaccount.h
-QIcon
--
-QSettings
 -
 
 /home/wangchao/Desktop/dde-dock/plugins/shutdown/shutdownplugin.h
@@ -134,12 +104,6 @@ pluginwidget.h
 ../widgets/tipswidget.h
 /home/wangchao/Desktop/dde-dock/plugins/widgets/tipswidget.h
 QLabel
--
-
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.cpp
-tipswidget.h
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
-QPainter
 -
 
 /home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
@@ -165,10 +129,6 @@ qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 qscopedpointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings
-qsettings.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 qstring.h
@@ -2112,14 +2072,6 @@ QtCore/qobject.h
 qicon.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
-qevent.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
-qpainter.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
 QtCore/qpair.h
 -
@@ -2208,20 +2160,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtGui/qinputmethod.h
--
-QtCore/qlocale.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
 QtCore/qglobal.h
 -
@@ -2252,10 +2190,6 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
-QtCore/qobject.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
 QtCore/qnamespace.h
 -
@@ -2284,36 +2218,6 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
-QtCore/qnamespace.h
--
-QtCore/qrect.h
--
-QtCore/qpoint.h
--
-QtCore/qscopedpointer.h
--
-QtGui/qpixmap.h
--
-QtGui/qimage.h
--
-QtGui/qtextoption.h
--
-QtGui/qpolygon.h
--
-QtGui/qpen.h
--
-QtGui/qbrush.h
--
-QtGui/qmatrix.h
--
-QtGui/qtransform.h
--
-QtGui/qfontinfo.h
--
-QtGui/qfontmetrics.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
 QtGui/qmatrix.h
 -
@@ -2331,12 +2235,6 @@ QtCore/qscopedpointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
 QtGui/qwindowdefs.h
 -
-QtGui/qcolor.h
--
-QtGui/qbrush.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
 QtGui/qcolor.h
 -
 QtGui/qbrush.h
@@ -2392,14 +2290,6 @@ QtCore/qglobal.h
 QtCore/qprocessordetection.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
-QtCore/qnamespace.h
--
-QtCore/qchar.h
--
-QtCore/qmetatype.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 QtCore/qobject.h
 -
@@ -2442,32 +2332,6 @@ QtGui/qwindowdefs_win.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtSvg/QSvgRenderer
-qsvgrenderer.h
-/usr/include/x86_64-linux-gnu/qt5/QtSvg/qsvgrenderer.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtSvg/qsvgrenderer.h
-QtGui/qmatrix.h
--
-QtCore/qobject.h
--
-QtCore/qsize.h
--
-QtCore/qrect.h
--
-QtCore/qxmlstream.h
--
-QtSvg/qtsvgglobal.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtSvg/qtsvgglobal.h
-QtCore/qglobal.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
-qapplication.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 qframe.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -2479,26 +2343,6 @@ qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 qwidget.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtWidgets/qdesktopwidget.h
--
-QtGui/qguiapplication.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
-QtWidgets/qwidget.h
--
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 QtWidgets/qwidget.h

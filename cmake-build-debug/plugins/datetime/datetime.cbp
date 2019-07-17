@@ -32,8 +32,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime/../../interfaces"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
@@ -73,8 +73,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/datetime/datetime_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/datetime/../../interfaces"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>

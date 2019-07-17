@@ -31,8 +31,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown/../../interfaces"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
@@ -71,8 +71,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/shutdown/shutdown_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/shutdown/../../interfaces"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>

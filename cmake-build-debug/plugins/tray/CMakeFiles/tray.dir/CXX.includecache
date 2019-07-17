@@ -359,10 +359,10 @@ DBusExtendedAbstractInterface
 -
 QtDBus/QtDBus
 -
-types/dbusimagelist.h
-/usr/include/libdframeworkdbus-2.0/types/dbusimagelist.h
 types/dbustooltip.h
 /usr/include/libdframeworkdbus-2.0/types/dbustooltip.h
+types/dbusimagelist.h
+/usr/include/libdframeworkdbus-2.0/types/dbusimagelist.h
 
 /usr/include/libdframeworkdbus-2.0/types/dbusimagelist.h
 QDBusMetaType
@@ -388,11 +388,11 @@ QRect
 QDBusMetaType
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
 dwindowmanagerhelper.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
 QDesktopWidget
 -
 QWidget
@@ -412,25 +412,25 @@ QTimer
 QDebug
 -
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dthememanager.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
 dgraphicsgloweffect.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
 dblureffectwidget.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 QWidget
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
 QGraphicsDropShadowEffect
 -
 QGraphicsEffect
@@ -438,17 +438,17 @@ QGraphicsEffect
 QPainter
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 QObject
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
 QObject
 -
 QString
@@ -458,11 +458,11 @@ QGlobalStatic
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dtkcore_global.h
 -
 dtkwidget_config.h
@@ -470,27 +470,27 @@ dtkwidget_config.h
 QtCore/QMetaMethod
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
 QWindow
 -
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/DObject
+/usr/include/libdtk-2.0.14/DCore/DObject
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 QScopedPointer
 -
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QtCore/qglobal.h
 -
 dtkcore_config.h

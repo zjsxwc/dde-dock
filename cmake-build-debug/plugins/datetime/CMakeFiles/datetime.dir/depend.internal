@@ -342,10 +342,10 @@ plugins/datetime/CMakeFiles/datetime.dir/datetimeplugin.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/datetime/datetimeplugin.h
  /home/wangchao/Desktop/dde-dock/plugins/datetime/datetimewidget.h
  /home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
- /usr/include/libdtk-2.0.13/DCore/DDBusSender
- /usr/include/libdtk-2.0.13/DCore/ddbussender.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/DDBusSender
+ /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer

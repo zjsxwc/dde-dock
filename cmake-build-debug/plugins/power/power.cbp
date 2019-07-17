@@ -31,8 +31,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
 					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power/../../interfaces"/>
@@ -72,8 +72,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/power/power_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
 					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/power/../../interfaces"/>

@@ -46,8 +46,6 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
-/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/3YJK5W5UP7/qrc_sound.cpp
-
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/EWIEGA46WW/moc_sinkinputwidget.cpp
 ../../../../../plugins/sound/sinkinputwidget.h
 /home/wangchao/Desktop/dde-dock/plugins/sound/sinkinputwidget.h
@@ -146,24 +144,8 @@ Z6CKQCPEVG/moc_horizontalseparator.cpp
 Z6CKQCPEVG/moc_volumeslider.cpp
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/sound/sound_autogen/Z6CKQCPEVG/moc_volumeslider.cpp
 
-/home/wangchao/Desktop/dde-dock/plugins/sound/componments/horizontalseparator.cpp
-horizontalseparator.h
-/home/wangchao/Desktop/dde-dock/plugins/sound/componments/horizontalseparator.h
-QPainter
--
-
 /home/wangchao/Desktop/dde-dock/plugins/sound/componments/horizontalseparator.h
 QWidget
--
-
-/home/wangchao/Desktop/dde-dock/plugins/sound/componments/volumeslider.cpp
-volumeslider.h
-/home/wangchao/Desktop/dde-dock/plugins/sound/componments/volumeslider.h
-QMouseEvent
--
-QDebug
--
-QTimer
 -
 
 /home/wangchao/Desktop/dde-dock/plugins/sound/componments/volumeslider.h
@@ -172,10 +154,6 @@ QSlider
 QTimer
 -
 
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbusaudio.cpp
-dbusaudio.h
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbusaudio.h
-
 /home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbusaudio.h
 QtCore/QObject
 -
@@ -194,10 +172,6 @@ QtCore/QVariant
 QtDBus/QtDBus
 -
 
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussink.cpp
-dbussink.h
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussink.h
-
 /home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussink.h
 QtCore/QObject
 -
@@ -215,10 +189,6 @@ QtCore/QVariant
 -
 QtDBus/QtDBus
 -
-
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussinkinput.cpp
-dbussinkinput.h
-/home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussinkinput.h
 
 /home/wangchao/Desktop/dde-dock/plugins/sound/dbus/dbussinkinput.h
 QtCore/QObject
@@ -336,37 +306,31 @@ pluginsiteminterface.h
 sounditem.h
 /home/wangchao/Desktop/dde-dock/plugins/sound/sounditem.h
 
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.cpp
-tipswidget.h
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
-QPainter
--
-
 /home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
 QFrame
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
 dapplication.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DHiDPIHelper
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DHiDPIHelper
 dhidpihelper.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dhidpihelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dhidpihelper.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
 QApplication
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dhidpihelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dhidpihelper.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
 QObject
 -
 QWidget
@@ -376,13 +340,13 @@ QLabel
 QPixmap
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dtkcore_global.h
 -
 dtkwidget_config.h
@@ -390,13 +354,13 @@ dtkwidget_config.h
 QtCore/QMetaMethod
 -
 
-/usr/include/libdtk-2.0.13/DCore/DDBusSender
+/usr/include/libdtk-2.0.14/DCore/DDBusSender
 ddbussender.h
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QObject
 -
 QDBusConnection
@@ -408,15 +372,15 @@ QDBusInterface
 memory
 -
 
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 QScopedPointer
 -
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QtCore/qglobal.h
 -
 dtkcore_config.h

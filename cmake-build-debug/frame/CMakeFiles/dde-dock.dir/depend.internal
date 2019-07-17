@@ -147,20 +147,20 @@ frame/CMakeFiles/dde-dock.dir/controller/dockitemcontroller.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QGSettings/QGSettings
  /usr/include/x86_64-linux-gnu/qt5/QGSettings/qgsettings.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
@@ -493,19 +493,19 @@ frame/CMakeFiles/dde-dock.dir/controller/dockpluginscontroller.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
@@ -1256,22 +1256,22 @@ frame/CMakeFiles/dde-dock.dir/dbus/dbusdockadaptors.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -2322,23 +2322,23 @@ frame/CMakeFiles/dde-dock.dir/dde-dock_autogen/mocs_compilation.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DBlurEffectWidget
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DBlurEffectWidget
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -2680,20 +2680,20 @@ frame/CMakeFiles/dde-dock.dir/item/appitem.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -3252,20 +3252,20 @@ frame/CMakeFiles/dde-dock.dir/item/components/appdragwidget.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -3575,15 +3575,15 @@ frame/CMakeFiles/dde-dock.dir/item/components/appsnapshot.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -3862,19 +3862,19 @@ frame/CMakeFiles/dde-dock.dir/item/components/containerwidget.cpp.o
  ../frame/util/dockpopupwindow.h
  /home/wangchao/Desktop/dde-dock/frame/item/components/containerwidget.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/components/containerwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -4140,15 +4140,15 @@ frame/CMakeFiles/dde-dock.dir/item/components/floatingpreview.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -4525,15 +4525,15 @@ frame/CMakeFiles/dde-dock.dir/item/components/previewcontainer.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -4814,19 +4814,19 @@ frame/CMakeFiles/dde-dock.dir/item/containeritem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/containeritem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/containeritem.h
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -5085,19 +5085,19 @@ frame/CMakeFiles/dde-dock.dir/item/dockitem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/components/hoverhighlighteffect.h
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -5391,21 +5391,21 @@ frame/CMakeFiles/dde-dock.dir/item/launcheritem.cpp.o
  /usr/include/libdframeworkdbus-2.0/com_deepin_dde_launcher.h
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DDBusSender
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/ddbussender.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DDBusSender
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -5701,19 +5701,19 @@ frame/CMakeFiles/dde-dock.dir/item/placeholderitem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
  /home/wangchao/Desktop/dde-dock/frame/item/placeholderitem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/placeholderitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -5973,19 +5973,19 @@ frame/CMakeFiles/dde-dock.dir/item/pluginsitem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
  /home/wangchao/Desktop/dde-dock/frame/item/pluginsitem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/pluginsitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -6474,19 +6474,19 @@ frame/CMakeFiles/dde-dock.dir/item/stretchitem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/dockitem.h
  /home/wangchao/Desktop/dde-dock/frame/item/stretchitem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/stretchitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -6747,19 +6747,19 @@ frame/CMakeFiles/dde-dock.dir/item/traypluginitem.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/item/pluginsitem.h
  /home/wangchao/Desktop/dde-dock/frame/item/traypluginitem.cpp
  /home/wangchao/Desktop/dde-dock/frame/item/traypluginitem.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -7052,35 +7052,35 @@ frame/CMakeFiles/dde-dock.dir/main.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/AbstractAppender.h
- /usr/include/libdtk-2.0.13/DCore/AbstractStringAppender.h
- /usr/include/libdtk-2.0.13/DCore/ConsoleAppender.h
- /usr/include/libdtk-2.0.13/DCore/CuteLogger_global.h
- /usr/include/libdtk-2.0.13/DCore/DDBusSender
- /usr/include/libdtk-2.0.13/DCore/DLog
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/FileAppender.h
- /usr/include/libdtk-2.0.13/DCore/LogManager.h
- /usr/include/libdtk-2.0.13/DCore/Logger.h
- /usr/include/libdtk-2.0.13/DCore/RollingFileAppender.h
- /usr/include/libdtk-2.0.13/DCore/ddbussender.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/AbstractAppender.h
+ /usr/include/libdtk-2.0.14/DCore/AbstractStringAppender.h
+ /usr/include/libdtk-2.0.14/DCore/ConsoleAppender.h
+ /usr/include/libdtk-2.0.14/DCore/CuteLogger_global.h
+ /usr/include/libdtk-2.0.14/DCore/DDBusSender
+ /usr/include/libdtk-2.0.14/DCore/DLog
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/FileAppender.h
+ /usr/include/libdtk-2.0.14/DCore/LogManager.h
+ /usr/include/libdtk-2.0.14/DCore/Logger.h
+ /usr/include/libdtk-2.0.14/DCore/RollingFileAppender.h
+ /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
@@ -7450,23 +7450,23 @@ frame/CMakeFiles/dde-dock.dir/panel/mainpanel.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DBlurEffectWidget
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DBlurEffectWidget
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -7801,10 +7801,10 @@ frame/CMakeFiles/dde-dock.dir/util/abstractpluginscontroller.cpp.o
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
- /usr/include/libdtk-2.0.13/DCore/DNotifySender
- /usr/include/libdtk-2.0.13/DCore/dnotifysender.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/DNotifySender
+ /usr/include/libdtk-2.0.14/DCore/dnotifysender.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QGSettings/QGSettings
  /usr/include/x86_64-linux-gnu/qt5/QGSettings/qgsettings.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
@@ -8043,19 +8043,19 @@ frame/CMakeFiles/dde-dock.dir/util/abstractpluginscontroller.cpp.o
 frame/CMakeFiles/dde-dock.dir/util/dockpopupwindow.cpp.o
  /home/wangchao/Desktop/dde-dock/frame/util/dockpopupwindow.cpp
  /home/wangchao/Desktop/dde-dock/frame/util/dockpopupwindow.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
@@ -8249,23 +8249,23 @@ frame/CMakeFiles/dde-dock.dir/util/docksettings.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DApplication
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DBlurEffectWidget
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dapplication.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DApplication
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DBlurEffectWidget
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dapplication.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -8918,23 +8918,23 @@ frame/CMakeFiles/dde-dock.dir/window/mainwindow.cpp.o
  /usr/include/libdframeworkdbus-2.0/types/dockrect.h
  /usr/include/libdframeworkdbus-2.0/types/windowinfomap.h
  /usr/include/libdframeworkdbus-2.0/types/windowlist.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DBlurEffectWidget
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DPlatformWindowHandle
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DWindowManagerHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dplatformwindowhandle.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dwindowmanagerhelper.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DBlurEffectWidget
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DPlatformWindowHandle
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DWindowManagerHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dplatformwindowhandle.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dwindowmanagerhelper.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent

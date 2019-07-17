@@ -185,12 +185,12 @@ plugins/network/CMakeFiles/network.dir/item/applet/accesspointwidget.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.h
  /usr/include/libddenetworkutils/NetworkDevice
  /usr/include/libddenetworkutils/networkdevice.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
@@ -340,15 +340,15 @@ plugins/network/CMakeFiles/network.dir/item/applet/devicecontrolwidget.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/devicecontrolwidget.cpp
  /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/devicecontrolwidget.h
  /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/DHiDPIHelper
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dhidpihelper.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/DHiDPIHelper
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dhidpihelper.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEasingCurve
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -601,22 +601,22 @@ plugins/network/CMakeFiles/network.dir/item/applet/wirelesslist.cpp.o
  /usr/include/libddenetworkutils/WirelessDevice
  /usr/include/libddenetworkutils/networkdevice.h
  /usr/include/libddenetworkutils/wirelessdevice.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dinputdialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dlineedit.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dpicturesequenceview.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/DDBusSender
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/ddbussender.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dinputdialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dlineedit.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dpicturesequenceview.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/DDBusSender
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEasingCurve
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonArray
@@ -815,10 +815,10 @@ plugins/network/CMakeFiles/network.dir/item/deviceitem.cpp.o
  /home/wangchao/Desktop/dde-dock/plugins/network/item/deviceitem.h
  /usr/include/libddenetworkutils/NetworkDevice
  /usr/include/libddenetworkutils/networkdevice.h
- /usr/include/libdtk-2.0.13/DCore/DDBusSender
- /usr/include/libdtk-2.0.13/DCore/ddbussender.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/DDBusSender
+ /usr/include/libdtk-2.0.14/DCore/ddbussender.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
@@ -1257,14 +1257,14 @@ plugins/network/CMakeFiles/network.dir/item/wirelessitem.cpp.o
  /usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network_proxychains.h
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dpicturesequenceview.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dpicturesequenceview.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEasingCurve
@@ -1598,15 +1598,15 @@ plugins/network/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o
  /usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network_proxychains.h
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dpicturesequenceview.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dpicturesequenceview.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEasingCurve
@@ -1919,14 +1919,14 @@ plugins/network/CMakeFiles/network.dir/networkplugin.cpp.o
  /usr/include/libdframeworkdbus-2.0/com_deepin_daemon_network_proxychains.h
  /usr/include/libdframeworkdbus-2.0/dbusextended.h
  /usr/include/libdframeworkdbus-2.0/dbusextendedabstractinterface.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dpicturesequenceview.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dpicturesequenceview.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEasingCurve

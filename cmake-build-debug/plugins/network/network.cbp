@@ -32,8 +32,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
 					<Add directory="/usr/include/libddenetworkutils"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../interfaces"/>
@@ -76,8 +76,8 @@
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/include"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
-					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.14/DCore/../DWidget"/>
 					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
 					<Add directory="/usr/include/libddenetworkutils"/>
 					<Add directory="/home/wangchao/Desktop/dde-dock/plugins/network/../../interfaces"/>

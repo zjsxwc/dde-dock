@@ -76,8 +76,6 @@ QtCore/qplugin.h
 QtCore/QList
 -
 
-/home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/EWIEGA46WW/qrc_network.cpp
-
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/GCPDG3WMVT/moc_deviceitem.cpp
 ../../../../../plugins/network/item/deviceitem.h
 /home/wangchao/Desktop/dde-dock/plugins/network/item/deviceitem.h
@@ -164,14 +162,6 @@ GNU42ZEEC5/moc_horizontalseperator.cpp
 GNU42ZEEC5/moc_wirelesslist.cpp
 /home/wangchao/Desktop/dde-dock/cmake-build-debug/plugins/network/network_autogen/GNU42ZEEC5/moc_wirelesslist.cpp
 
-/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspoint.cpp
-accesspoint.h
-/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspoint.h
-QDebug
--
-QJsonDocument
--
-
 /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/accesspoint.h
 QObject
 -
@@ -236,12 +226,6 @@ QLabel
 dloadingindicator.h
 -
 dswitchbutton.h
--
-
-/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.cpp
-horizontalseperator.h
-/home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.h
-QPainter
 -
 
 /home/wangchao/Desktop/dde-dock/plugins/network/item/applet/horizontalseperator.h
@@ -386,22 +370,10 @@ NetworkWorker
 NetworkModel
 -
 
-/home/wangchao/Desktop/dde-dock/plugins/network/util/imageutil.cpp
-imageutil.h
-/home/wangchao/Desktop/dde-dock/plugins/network/util/imageutil.h
-QPainter
--
-
 /home/wangchao/Desktop/dde-dock/plugins/network/util/imageutil.h
 QPixmap
 -
 QSvgRenderer
--
-
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.cpp
-tipswidget.h
-/home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
-QPainter
 -
 
 /home/wangchao/Desktop/dde-dock/widgets/tipswidget.h
@@ -540,11 +512,11 @@ QDBusAbstractInterface
 QDBusError
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/DHiDPIHelper
+/usr/include/libdtk-2.0.14/DCore/../DWidget/DHiDPIHelper
 dhidpihelper.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dhidpihelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dhidpihelper.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
 QDialog
 -
 QPoint
@@ -552,19 +524,19 @@ QPoint
 DObject
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
 QIcon
 -
 dabstractdialog.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dhidpihelper.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dhidpihelper.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dimagebutton.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dimagebutton.h
 QObject
 -
 QWidget
@@ -574,29 +546,29 @@ QLabel
 QPixmap
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dinputdialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dinputdialog.h
 QInputDialog
 -
 ddialog.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
 dlineedit.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dlineedit.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dlineedit.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dlineedit.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dlineedit.h
 QLineEdit
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dloadingindicator.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dloadingindicator.h
 QObject
 -
 QBrush
@@ -620,15 +592,15 @@ QEasingCurve
 QDebug
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dpicturesequenceview.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dpicturesequenceview.h
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 QtGlobal
 -
 QPair
@@ -636,7 +608,7 @@ QPair
 QGraphicsView
 -
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dswitchbutton.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dswitchbutton.h
 QFrame
 -
 QPixmap
@@ -646,13 +618,13 @@ QVariantAnimation
 QUrl
 -
 dtkwidget_global.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dobject.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
 
-/usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+/usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
 dtkcore_global.h
 -
 dtkwidget_config.h
@@ -660,17 +632,17 @@ dtkwidget_config.h
 QtCore/QMetaMethod
 -
 
-/usr/include/libdtk-2.0.13/DCore/DDBusSender
+/usr/include/libdtk-2.0.14/DCore/DDBusSender
 ddbussender.h
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 
-/usr/include/libdtk-2.0.13/DCore/DObject
+/usr/include/libdtk-2.0.14/DCore/DObject
 dobject.h
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 
-/usr/include/libdtk-2.0.13/DCore/ddbussender.h
+/usr/include/libdtk-2.0.14/DCore/ddbussender.h
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QObject
 -
 QDBusConnection
@@ -682,15 +654,15 @@ QDBusInterface
 memory
 -
 
-/usr/include/libdtk-2.0.13/DCore/dobject.h
+/usr/include/libdtk-2.0.14/DCore/dobject.h
 QScopedPointer
 -
 dtkcore_global.h
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
 
-/usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+/usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
 QtCore/qglobal.h
 -
 dtkcore_config.h

@@ -114,14 +114,14 @@ plugins/overlay-warning/CMakeFiles/overlay-warning.dir/overlay-warning-plugin.cp
  /home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning-plugin.cpp
  /home/wangchao/Desktop/dde-dock/plugins/overlay-warning/overlay-warning-plugin.h
  /home/wangchao/Desktop/dde-dock/plugins/overlay-warning/pluginwidget.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dabstractdialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/ddialog.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
- /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
- /usr/include/libdtk-2.0.13/DCore/DObject
- /usr/include/libdtk-2.0.13/DCore/dobject.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
- /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dabstractdialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/ddialog.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.14/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.14/DCore/DObject
+ /usr/include/libdtk-2.0.14/DCore/dobject.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.14/DCore/dtkcore_global.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaMethod
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPoint
